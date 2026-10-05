@@ -1,6 +1,15 @@
 {
     "items": [
         {
+            "date": "September 14, 2026",
+            "year": "2026",
+            "title": "Outcrop Silver Announces Updated Mineral Resource Estimate for the Santa Ana Primary Silver Project",
+            "summary": "Indicated resources contain 29.9 Moz AgEq at 519 g/t AgEq and Inferred resources contain 27.9 Moz AgEq at 369 g/t AgEq, confirming high grades and expanding resources across 13 vein systems.",
+            "category": "Mineral Resource",
+            "pdfUrl": "assets/pdfs/2026/20260914_nr_updated_mineral_resource_estimate_santa_ana.pdf",
+            "readUrl": "https://outcropsilver.com/news/"
+        },
+        {
             "date": "August 5, 2026",
             "year": "2026",
             "title": "Outcrop Silver Reports High-Grade Drill Results from Aguilar and Morena Targets",
