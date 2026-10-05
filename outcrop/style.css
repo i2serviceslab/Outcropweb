@@ -1341,6 +1341,12 @@ h1, h2, h3, h4, h5, h6 {
     gap: 6px;
     color: var(--text-tertiary);
     font-size: 0.72rem;
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.powered-by-tag:hover {
+    color: var(--text-primary);
 }
 
 .powered-by-tag img {
