@@ -896,7 +896,7 @@ h1, h2, h3, h4, h5, h6 {
 .advantage-card {
     display: flex;
     gap: 20px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .adv-icon {
@@ -911,17 +911,17 @@ h1, h2, h3, h4, h5, h6 {
     flex-shrink: 0;
 }
 
-.adv-text h4 {
+.adv-text p {
     font-size: 0.88rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 6px;
-    color: var(--text-primary);
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin: 0;
 }
 
-.adv-text p {
-    font-size: 0.82rem;
-    color: var(--text-secondary);
-    line-height: 1.5;
+.adv-text p strong {
+    color: var(--text-primary);
+    font-weight: 800;
+    letter-spacing: 0.02em;
 }
 
 /* Map Box (No Image Inversion) */
