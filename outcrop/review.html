@@ -575,6 +575,7 @@
     <script>
     document.addEventListener('DOMContentLoaded', async () => {
         const symbols = {
+            'OCG.TO': { priceId: 'tsx-price', changeId: 'tsx-change', curr: 'C$' },
             'OCG.V': { priceId: 'tsx-price', changeId: 'tsx-change', curr: 'C$' },
             'OCGSF': { priceId: 'otcqx-price', changeId: 'otcqx-change', curr: '$' },
             'MRG.F': { priceId: 'fse-price', changeId: 'fse-change', curr: '€' },
@@ -591,16 +592,25 @@
         };
         
         const fallbackData = {
-            'OCG.V': { price: 0.36, change: -1.37 },
-            'OCGSF': { price: 0.27, change: 12.50 },
-            'MRG.F': { price: 0.222, change: 10.17 },
-            'SI=F': { price: 38.45, change: 2.29 }
+            'OCG.TO': { price: 0.28, change: -3.45 },
+            'OCG.V': { price: 0.28, change: -3.45 },
+            'OCGSF': { price: 0.20, change: -0.10 },
+            'MRG.F': { price: 0.173, change: 1.29 },
+            'SI=F': { price: 61.32, change: 1.51 }
         };
 
         const updateDOM = (symbol, price, changePercent) => {
             const ids = symbols[symbol];
             if (!ids) return;
-            document.getElementById(ids.priceId).innerText = ids.curr + (symbol === 'SI=F' ? price.toFixed(2) + '/Oz' : (price < 1 ? price.toFixed(3) : price.toFixed(2)));
+            let formattedPrice = '';
+            if (symbol === 'SI=F') {
+                formattedPrice = price.toFixed(2) + '/Oz';
+            } else if (symbol === 'MRG.F') {
+                formattedPrice = price.toFixed(3);
+            } else {
+                formattedPrice = price.toFixed(2);
+            }
+            document.getElementById(ids.priceId).innerText = ids.curr + formattedPrice;
             document.getElementById(ids.changeId).innerHTML = formatChange(changePercent);
         };
 

@@ -485,11 +485,15 @@ if (req.url === '/api/brevo/campaign' && req.method === 'POST') {
             fetchTicker('CGNRF'),   // OTC
             fetchTicker('29H0.F'),  // FSE
             fetchTicker('HG=F'),    // Copper Futures
-            fetchTicker('OCG.V'),   // Outcrop TSX
+            fetchTicker('OCG.TO'),  // Outcrop TSX (Real live symbol on TSX)
             fetchTicker('OCGSF'),   // Outcrop OTC
             fetchTicker('MRG.F'),   // Outcrop FSE
             fetchTicker('SI=F')     // Silver Spot
         ]).then(results => {
+            const ocg = results.find(r => r.symbol === 'OCG.TO');
+            if (ocg && ocg.price !== null) {
+                results.push({ symbol: 'OCG.V', price: ocg.price, change: ocg.change });
+            }
             global.marketCache = { data: results, timestamp: now };
             res.end(JSON.stringify(results));
         }).catch(err => {
