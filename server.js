@@ -4,7 +4,21 @@ const path = require('path');
 const zlib = require('zlib');
 
 const PORT = process.env.PORT || 8080;
-const PUBLIC_DIR = path.join(__dirname, process.env.SITE_FOLDER || 'proposal');
+function resolvePublicDir(req) {
+    if (process.env.SITE_FOLDER) {
+        return path.join(__dirname, process.env.SITE_FOLDER);
+    }
+    const host = ((req && req.headers && req.headers.host) || '').toLowerCase();
+    const url = (req && req.url) || '';
+    if (url.includes('site=copper')) return path.join(__dirname, 'proposal');
+    if (url.includes('site=outcrop')) return path.join(__dirname, 'outcrop');
+    if (host.includes('outcrop')) return path.join(__dirname, 'outcrop');
+    if (host.includes('copper')) return path.join(__dirname, 'proposal');
+    return path.join(__dirname, 'outcrop'); // Default to outcrop
+}
+
+const PUBLIC_DIR = path.join(__dirname, process.env.SITE_FOLDER || 'outcrop');
+
 const DB_FILE = path.join(__dirname, 'data', 'analytics_db.json');
 const VISITOR_DB_FILE = path.join(__dirname, 'data', 'visitors_db.json');
 
@@ -108,6 +122,7 @@ function broadcastUpdate() {
 }
 
 const server = http.createServer((req, res) => {
+    const PUBLIC_DIR = resolvePublicDir(req);
     // --- MICROSERVICE PROXY: OUTCROP CRM (NEXT.JS) ---
     if (req.url.startsWith('/crm') || req.url.startsWith('/_next')) {
         const httpProxy = require('http');
@@ -757,7 +772,16 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
         return;
     }
 
-    if (req.url === '/api/debug') {
+    if (req.url.startsWith('/api/debug')) {
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        return res.end(JSON.stringify({
+            host: req.headers.host,
+            resolvedDir: PUBLIC_DIR,
+            envSiteFolder: process.env.SITE_FOLDER || null,
+            time: new Date().toISOString()
+        }));
+    }
+    if (false && req.url === '/api/debug_old') {
         const fs = require('fs');
         try {
             let fp = path.join(PUBLIC_DIR, 'assets/Video Web.mp4');
@@ -939,7 +963,10 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
 
     // Static File Server with Streams, Caching, and Compression
     let rawUrl = decodeURIComponent(req.url.split('?')[0]);
-    if (rawUrl === '/') rawUrl = '/index.html';
+    if (rawUrl.startsWith('/outcrop')) {
+        rawUrl = rawUrl.substring(8);
+    }
+    if (rawUrl === '' || rawUrl === '/') rawUrl = '/index.html';
     
     let filePath = path.join(PUBLIC_DIR, rawUrl);
     let extname = String(path.extname(filePath)).toLowerCase();
