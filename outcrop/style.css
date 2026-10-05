@@ -1321,6 +1321,8 @@ h1, h2, h3, h4, h5, h6 {
 .footer-legal-links {
     display: flex;
     gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-legal-links a {
@@ -1331,6 +1333,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-legal-links a:hover {
     color: var(--text-primary);
+}
+
+.powered-by-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-tertiary);
+    font-size: 0.72rem;
+}
+
+.powered-by-tag img {
+    height: 14px;
+    width: auto;
+    vertical-align: middle;
+    opacity: 0.85;
+    transition: opacity var(--transition-fast);
+}
+
+.powered-by-tag:hover img {
+    opacity: 1;
 }
 
 @media (max-width: 1024px) {
