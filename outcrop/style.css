@@ -1177,13 +1177,26 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 10;
 }
 
-.footer-grid {
+.footer-grid,
+.footer-container {
     max-width: 1300px;
     margin: 0 auto;
     padding: 80px 24px 48px 24px;
     display: grid;
     grid-template-columns: 1.2fr 0.8fr 0.8fr 1.2fr;
     gap: 48px;
+}
+
+.footer-logo-link {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.footer-logo {
+    height: 48px;
+    width: auto;
+    max-width: 220px;
+    display: block;
 }
 
 .footer-title {
@@ -1195,7 +1208,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-primary);
 }
 
-.footer-about-text {
+.footer-about-text,
+.footer-bio {
     font-size: 0.82rem;
     color: var(--text-secondary);
     margin-top: 16px;
