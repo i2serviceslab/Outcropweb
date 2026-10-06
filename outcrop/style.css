@@ -887,19 +887,22 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 550px;
 }
 
-.advantage-cards-grid {
+.advantage-cards-grid,
+.benefit-cards-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 28px;
 }
 
-.advantage-card {
+.advantage-card,
+.benefit-card {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.adv-icon {
+.adv-icon,
+.benefit-icon {
     font-size: 1.3rem;
     color: var(--brand-primary);
     background-color: rgba(87, 105, 110, 0.08);
@@ -911,18 +914,31 @@ h1, h2, h3, h4, h5, h6 {
     flex-shrink: 0;
 }
 
-.adv-text p {
+.adv-text,
+.benefit-text {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.adv-text p,
+.benefit-text p {
     font-size: 0.88rem;
     color: var(--text-secondary);
     line-height: 1.55;
     margin: 0;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
-.adv-text p strong {
+.adv-text p strong,
+.benefit-text p strong {
     color: var(--text-primary);
     font-weight: 800;
     letter-spacing: 0.02em;
 }
+
 
 /* Map Box (No Image Inversion) */
 .map-container-box {
