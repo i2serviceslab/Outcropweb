@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Cache-Busting Meta Tags -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESG & Sustainability | Outcrop Silver Corp.</title>
+    <meta name="description" content="Explore Outcrop Silver's ESG strategy, environmental stewardship, local community initiatives in Colombia, and corporate governance practices.">
+    
+    <!-- Google Fonts: Figtree for Headings, Inter for Body, JetBrains Mono for Tickers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons for UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css?v=20261006_v1">
+</head>
+<body>
+
+    <!-- Apple-style hover backdrop blur overlay -->
+    <div class="page-backdrop"></div>
+
+    <!-- Header & Navigation Group -->
+    <div class="top-header-group">
+        <!-- Live Ticker Bar (Stocks & Silver Price) -->
+        <div class="ticker-bar">
+            <div class="ticker-wrapper">
+                
+                <div class="ticker-stocks font-mono" id="live-ticker">
+                    <span><strong>TSX</strong>: OCG <span id="tsx-price">...</span> <span id="tsx-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>OTCQX</strong>: OCGSF <span id="otcqx-price">...</span> <span id="otcqx-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>FSE</strong>: MRG <span id="fse-price">...</span> <span id="fse-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>Silver Spot</strong>: <span id="silver-price">...</span> <span id="silver-change" class="stock-change"></span></span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Sticky Header Navigation -->
+        <header class="nav-header">
+            <nav class="main-nav">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo.svg" alt="Outcrop Silver" class="logo-img">
+                </a>
+                
+                <div class="nav-links-left">
+                    <a href="index.html" class="nav-link">Home</a>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="corporate.html" class="nav-link">Corporate <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="corporate.html#overview">Overview</a>
+                            <a href="corporate.html#management">Management & Directors</a>
+                            <a href="corporate.html#governance">Governance</a>
+                            <a href="corporate.html#disclaimer">Disclaimer</a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="projects.html" class="nav-link">Projects <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="santa-ana.html">Santa Ana (Flagship)</a>
+                            <a href="mallama.html">Mallama Project</a>
+                            <a href="oribella.html">Oribella Project</a>
+                            <a href="argelia.html">Argelia Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="investors.html" class="nav-link">Investors <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="investors.html#stock-info">Investors</a>
+                            <a href="investors.html#financials">Financial Statements</a>
+                            <a href="investors.html#presentations">Presentations</a>
+                            <a href="investors.html#videos">Videos</a>
+                            <a href="investors.html#events">Events</a>
+                        </div>
+                    </div>
+
+                    <a href="esg.html" class="nav-link active" style="color: var(--brand-primary); font-weight: 700;">ESG</a>
+                </div>
+
+                <div class="nav-links-right">
+                    <a href="https://outcropsilver.com/site/assets/files/6346/corporate_presentation_-_outcropsilver_-_august_2026_-_digital_new_3.pdf" target="_blank" class="nav-btn-outline"><i class="fa-solid fa-file-pdf"></i> View Presentation</a>
+                    <a href="index.html#newsletter-section" class="nav-btn-outline"><i class="fa-regular fa-bell"></i> Get Updates</a>
+                    <a href="news.html" class="nav-btn-solid">News</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-toggle" id="btn-mobile-menu" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
+        
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobile-menu">
+            <a href="index.html" class="mobile-link">Home</a>
+            <a href="corporate.html" class="mobile-link">Corporate</a>
+            <a href="santa-ana.html" class="mobile-link">Santa Ana Project</a>
+            <a href="investors.html" class="mobile-link">Investors</a>
+            <a href="esg.html" class="mobile-link active" style="color: var(--brand-primary);">ESG</a>
+            <a href="news.html" class="mobile-link">News</a>
+            <a href="https://outcropsilver.com/site/assets/files/6346/corporate_presentation_-_outcropsilver_-_august_2026_-_digital_new_3.pdf" target="_blank" class="mobile-link"><i class="fa-solid fa-file-pdf"></i> Presentation</a>
+        </div>
+    </div>
+
+    <!-- Internal Hero Banner -->
+    <section class="internal-hero" style="background-image: url('assets/esg_initiatives.jpg?v=20261005_v3');">
+        <div class="internal-hero-overlay"></div>
+        <div class="internal-hero-content">
+            <h1 class="internal-title">ESG & Sustainability</h1>
+            <p class="internal-subtitle">Environmental Stewardship, Community Value & Corporate Responsibility</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <section class="internal-content-section">
+        <div class="container-main">
+            
+            <!-- Section Intro -->
+            <div class="section-intro" style="margin-bottom: 50px;">
+                <h2 style="font-family: 'Figtree', sans-serif; font-weight: 900; text-transform: uppercase; font-size: 2rem; color: var(--text-primary); margin-bottom: 16px;">Building Sustainable Value in Colombia</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary); max-width: 950px;">At Outcrop Silver, our commitment to Environmental, Social, and Governance (ESG) excellence is fundamental to how we operate. As we advance our flagship Santa Ana primary silver project in the historic Mariquita district of Tolima, we integrate modern scientific exploration with genuine community partnership, environmental protection, and transparent corporate governance.</p>
+            </div>
+
+            <!-- ESG Highlights Cards Grid -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-bottom: 60px;">
+                
+                <!-- Pillar 1: Environment -->
+                <div style="background: #ffffff; border: 1px solid var(--border-subtle); border-top: 4px solid var(--brand-primary); padding: 36px 30px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+                    <div style="width: 50px; height: 50px; border-radius: 8px; background: rgba(0, 210, 196, 0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 22px;">
+                        <i class="fa-solid fa-leaf" style="font-size: 1.5rem; color: var(--brand-primary);"></i>
+                    </div>
+                    <h3 style="font-family: 'Figtree', sans-serif; font-weight: 800; font-size: 1.4rem; color: var(--text-primary); margin-bottom: 14px;">Environmental Stewardship</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 18px;">We are dedicated to minimizing our operational footprint and preserving Colombia's rich biodiversity throughout the project lifecycle.</p>
+                    <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.92rem; color: var(--text-primary); line-height: 1.8;">
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Selective Underground Focus:</strong> Compact surface footprint with minimal environmental disturbance compared to open-pit operations.</span>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Clean Metallurgy (Cyanide-Free):</strong> High silver and gold recoveries using simple gravity and flotation methods, eliminating the need for cyanide.</span>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Water & Soil Stewardship:</strong> Rigorous baseline monitoring of local waterways and proactive erosion controls across all active drill platforms.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 2: Social -->
+                <div style="background: #ffffff; border: 1px solid var(--border-subtle); border-top: 4px solid var(--brand-primary); padding: 36px 30px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+                    <div style="width: 50px; height: 50px; border-radius: 8px; background: rgba(0, 210, 196, 0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 22px;">
+                        <i class="fa-solid fa-users" style="font-size: 1.5rem; color: var(--brand-primary);"></i>
+                    </div>
+                    <h3 style="font-family: 'Figtree', sans-serif; font-weight: 800; font-size: 1.4rem; color: var(--text-primary); margin-bottom: 14px;">Social Value & Community</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 18px;">Sustainable exploration requires genuine, respectful collaboration with local communities, landowners, and regional authorities.</p>
+                    <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.92rem; color: var(--text-primary); line-height: 1.8;">
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Local Employment Priority:</strong> Over 90% of our on-site operational team and field workforce are hired directly from Falan, Mariquita, and nearby towns.</span>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Community Dialogue:</strong> Active, ongoing engagement with Community Action Boards (JACs), local farmers, and municipal leaders.</span>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Local Infrastructure & Well-being:</strong> Continuous investment in local road maintenance, community center support, and educational programs.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 3: Governance -->
+                <div style="background: #ffffff; border: 1px solid var(--border-subtle); border-top: 4px solid var(--brand-primary); padding: 36px 30px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+                    <div style="width: 50px; height: 50px; border-radius: 8px; background: rgba(0, 210, 196, 0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 22px;">
+                        <i class="fa-solid fa-shield-halved" style="font-size: 1.5rem; color: var(--brand-primary);"></i>
+                    </div>
+                    <h3 style="font-family: 'Figtree', sans-serif; font-weight: 800; font-size: 1.4rem; color: var(--text-primary); margin-bottom: 14px;">Governance & Ethics</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 18px;">We adhere to the highest standards of transparency, corporate integrity, and regulatory accountability in Canada and Colombia.</p>
+                    <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.92rem; color: var(--text-primary); line-height: 1.8;">
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Board-Level ESG Oversight:</strong> Specialized board members including Ana Milena Vásquez, dedicated to ESG and social responsibility.</span>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Anti-Corruption & Transparency:</strong> Strict adherence to Canadian TSX guidelines and Colombian mining compliance regulations.</span>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start; gap: 10px;">
+                            <i class="fa-solid fa-check" style="color: var(--brand-primary); margin-top: 5px; flex-shrink: 0;"></i>
+                            <span><strong>Robust Policies:</strong> Enforced policies on Business Conduct, Whistleblower protection, and Audit Committee governance.</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Leadership Spotlight -->
+            <div style="background: #ffffff; border: 1px solid var(--border-subtle); padding: 40px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.03); margin-bottom: 60px;">
+                <h3 style="font-family: 'Figtree', sans-serif; font-weight: 800; font-size: 1.5rem; color: var(--text-primary); margin-bottom: 25px;">Leadership with Colombian ESG Expertise</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                    
+                    <!-- Ana Milena Vásquez -->
+                    <div style="display: flex; gap: 20px; align-items: flex-start;">
+                        <img src="assets/ana_milena_vasquez.png" alt="Ana Milena Vásquez" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 3px solid var(--brand-primary); flex-shrink: 0; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+                        <div>
+                            <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--text-primary); margin: 0 0 4px 0;">Ana Milena Vásquez</h4>
+                            <span style="font-size: 0.85rem; font-weight: 700; color: var(--brand-primary); display: block; margin-bottom: 8px;">Director & ESG Specialist</span>
+                            <p style="font-size: 0.88rem; line-height: 1.6; color: var(--text-secondary); margin: 0;">Over two decades of mining leadership in Colombia, former President of Mineros S.A. and executive across multinational mining operations, providing board-level oversight on community relations, social dialogue, and environmental standards.</p>
+                        </div>
+                    </div>
+
+                    <!-- Thyana Alvarez -->
+                    <div style="display: flex; gap: 20px; align-items: flex-start;">
+                        <img src="assets/thyana_alvarez.jpg" alt="Thyana Alvarez" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 3px solid var(--brand-primary); flex-shrink: 0; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+                        <div>
+                            <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--text-primary); margin: 0 0 4px 0;">Thyana Alvarez</h4>
+                            <span style="font-size: 0.85rem; font-weight: 700; color: var(--brand-primary); display: block; margin-bottom: 8px;">VP Corporate Relations & Country Manager</span>
+                            <p style="font-size: 0.88rem; line-height: 1.6; color: var(--text-secondary); margin: 0;">Leads our in-country operations and strategic stakeholder engagement in Tolima, ensuring responsive, transparent, and direct communication between Outcrop Silver and local communities.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Corporate Governance Documents -->
+            <div style="margin-bottom: 40px;">
+                <h3 style="font-family: 'Figtree', sans-serif; font-weight: 800; font-size: 1.5rem; color: var(--text-primary); margin-bottom: 10px;">Corporate Governance Policies</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 25px; font-size: 0.95rem;">Access Outcrop Silver's official governance policies and ethical charters:</p>
+                
+                <div class="document-grid">
+                    <a href="https://outcropsilver.com/site/assets/files/1025/ocg_ethics_policy_final_july2020.pdf" target="_blank" class="download-card">
+                        <div class="download-badge">PDF</div>
+                        <div class="download-info">
+                            <h4 class="download-title">Code of Business Conduct and Ethics</h4>
+                            <span class="download-meta">Published: July 2020 • 182 KB</span>
+                        </div>
+                        <div class="download-action"><i class="fa-solid fa-chevron-right"></i></div>
+                    </a>
+                    <a href="https://outcropsilver.com/site/assets/files/1025/ocg_audit_committee_charter_final_july2020.pdf" target="_blank" class="download-card">
+                        <div class="download-badge">PDF</div>
+                        <div class="download-info">
+                            <h4 class="download-title">Audit Committee Charter</h4>
+                            <span class="download-meta">Published: July 2020 • 145 KB</span>
+                        </div>
+                        <div class="download-action"><i class="fa-solid fa-chevron-right"></i></div>
+                    </a>
+                    <a href="https://outcropsilver.com/site/assets/files/1025/ocg_board_mandate_final_july2020.pdf" target="_blank" class="download-card">
+                        <div class="download-badge">PDF</div>
+                        <div class="download-info">
+                            <h4 class="download-title">Board Mandate</h4>
+                            <span class="download-meta">Published: July 2020 • 163 KB</span>
+                        </div>
+                        <div class="download-action"><i class="fa-solid fa-chevron-right"></i></div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Global Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Column 1: Brand & Bio -->
+            <div class="footer-column brand-col">
+                <a href="index.html" class="footer-logo-link">
+                    <img src="assets/logo.svg" alt="Outcrop Silver" class="footer-logo">
+                </a>
+                <p class="footer-bio">
+                    Outcrop Silver & Gold is advancing the high-grade Santa Ana primary silver project in Tolima, Colombia. Expanding mineral resources with disciplined, discovery-driven exploration.
+                </p>
+                <div class="footer-social-links">
+                    <a href="https://twitter.com/OCG_Silver" target="_blank" aria-label="X (formerly Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/outcrop-silver-gold/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/@outcropsilvergoldcorp.8037" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/outcropsilvergold/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <!-- Column 2: Quick Links -->
+            <div class="footer-column links-col">
+                <h4 class="footer-title">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="corporate.html">Corporate Overview</a></li>
+                    <li><a href="santa-ana.html">Santa Ana Project</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="investors.html">Investors</a></li>
+                    <li><a href="esg.html">ESG</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Secure Contact Info -->
+            <div class="footer-column contact-col">
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-contact-details">
+                    <li><i class="fa-solid fa-phone"></i> +1 (604) 609-6110</li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@outcropsilver.com">info@outcropsilver.com</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i> Suite 1605 – 777 Dunsmuir St,<br>Vancouver, PO Box 10162, Canada V7Y 1E4</li>
+                </ul>
+            </div>
+            
+            <!-- Column 4: Newsletter Form -->
+            <div class="footer-column signup-col">
+                <h4 class="footer-title">Newsletter Sign-Up</h4>
+                <p class="newsletter-sub">Get direct email alerts with our latest drilling results and company updates.</p>
+                <form class="footer-signup-form" action="https://outcropgoldcorp.us20.list-manage.com/subscribe/post?u=8d2ee82d96b592c11443ded47&amp;id=ead3eb597a" method="post" target="_blank">
+                    <input type="email" name="EMAIL" placeholder="Your Email Address" required class="signup-input">
+                    <button type="submit" class="signup-btn" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Bottom copyright bar -->
+        <div class="footer-bottom-bar">
+            <div class="footer-bottom-container">
+                <div class="copyright-text">
+                    © 2026 Outcrop Silver & Gold Corporation. All Rights Reserved.
+                </div>
+                <div class="footer-legal-links">
+                    <a href="https://outcropsilver.com/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="corporate.html#disclaimer">Legal Disclaimer</a>
+                    <a href="https://www.i2services.co/" target="_blank" rel="noopener" class="powered-by-tag">Powered by: <img src="assets/i2_services_logo.png" alt="i2.Services s.a.s."></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="btn-back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Script connection -->
+    <script src="script.js?v=20261005_v3"></script>
+
+    <!-- Live Market Data Fetcher -->
+    <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        const symbols = {
+            'OCG.TO': { priceId: 'tsx-price', changeId: 'tsx-change', curr: 'C$' },
+            'OCG.V': { priceId: 'tsx-price', changeId: 'tsx-change', curr: 'C$' },
+            'OCGSF': { priceId: 'otcqx-price', changeId: 'otcqx-change', curr: '$' },
+            'MRG.F': { priceId: 'fse-price', changeId: 'fse-change', curr: '€' },
+            'SI=F': { priceId: 'silver-price', changeId: 'silver-change', curr: '$' }
+        };
+
+        try {
+            const res = await fetch('/api/market-data');
+            if (!res.ok) return;
+            const data = await res.json();
+            
+            data.forEach(item => {
+                const conf = symbols[item.symbol];
+                if (conf) {
+                    const priceEl = document.getElementById(conf.priceId);
+                    const changeEl = document.getElementById(conf.changeId);
+                    
+                    if (priceEl && item.price !== undefined) {
+                        priceEl.textContent = `${conf.curr}${parseFloat(item.price).toFixed(2)}`;
+                    }
+                    if (changeEl && item.changePercent !== undefined) {
+                        const changeVal = parseFloat(item.changePercent);
+                        changeEl.textContent = `${changeVal >= 0 ? '+' : ''}${changeVal.toFixed(2)}%`;
+                        changeEl.className = `stock-change ${changeVal >= 0 ? 'positive' : 'negative'}`;
+                    }
+                }
+            });
+        } catch (e) {
+            console.error('Ticker fetch error:', e);
+        }
+    });
+    </script>
+</body>
+</html>
