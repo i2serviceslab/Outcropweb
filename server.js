@@ -990,7 +990,7 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
                         res.writeHead(404);
                         return res.end('Not Found');
                     }
-                    res.writeHead(200, { 'Content-Type': 'text/html', 'Cache-Control': 'no-store, no-cache, must-revalidate, max-age=0', 'Clear-Site-Data': '"cache"' });
+                    res.writeHead(200, { 'Content-Type': 'text/html', 'Cache-Control': 'no-cache, must-revalidate' });
                     fs.createReadStream(path.join(PUBLIC_DIR, 'index.html')).pipe(res);
                 });
             } else {
@@ -1006,15 +1006,19 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
             'Accept-Ranges': 'bytes' // Crucial for large PDFs and Videos
         };
 
-        // Cache-Busting Headers: Prevent stale cache for HTML, short revalidation for assets
+        // Cache Headers: HTML is revalidated to ensure fresh updates;
+        // Static assets (images, fonts, scripts, styles, video) are cached for 1 day with stale-while-revalidate
         if (extname === '.html' || !extname) {
-            headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0';
-            headers['Pragma'] = 'no-cache';
-            headers['Expires'] = '0';
-            headers['Clear-Site-Data'] = '"cache"';
+            headers['Cache-Control'] = 'no-cache, must-revalidate';
         } else {
-            headers['Cache-Control'] = 'no-cache, must-revalidate, max-age=0';
-            headers['Pragma'] = 'no-cache';
+            headers['Cache-Control'] = 'public, max-age=86400, stale-while-revalidate=604800';
+            headers['ETag'] = `"${stats.size}-${stats.mtime.getTime()}"`;
+
+            // 304 Not Modified support
+            if (req.headers['if-none-match'] === headers['ETag']) {
+                res.writeHead(304, headers);
+                return res.end();
+            }
         }
 
         // Handle Range Requests for large PDFs and Videos
