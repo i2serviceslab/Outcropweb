@@ -123,6 +123,13 @@ function broadcastUpdate() {
 
 const server = http.createServer((req, res) => {
     const PUBLIC_DIR = resolvePublicDir(req);
+
+    // --- PREVENT BROWSER CACHING FOR ALL APIS ---
+    if (req.url.startsWith('/api/')) {
+        res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0');
+        res.setHeader('Pragma', 'no-cache');
+        res.setHeader('Expires', '0');
+    }
     // --- MICROSERVICE PROXY: OUTCROP CRM (NEXT.JS) ---
     if (req.url.startsWith('/crm') || req.url.startsWith('/_next')) {
         const httpProxy = require('http');
@@ -1009,7 +1016,9 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
         // Cache Headers: HTML is revalidated to ensure fresh updates;
         // Static assets (images, fonts, scripts, styles, video) are cached for 1 day with stale-while-revalidate
         if (extname === '.html' || !extname) {
-            headers['Cache-Control'] = 'no-cache, must-revalidate';
+            headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0';
+            headers['Pragma'] = 'no-cache';
+            headers['Expires'] = '0';
         } else {
             headers['Cache-Control'] = 'public, max-age=86400, stale-while-revalidate=604800';
             headers['ETag'] = `"${stats.size}-${stats.mtime.getTime()}"`;
