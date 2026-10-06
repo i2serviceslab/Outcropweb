@@ -992,14 +992,8 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
         if (err || !stats.isFile()) {
             if (!extname || extname === '.html') {
                 // Fallback to index.html for 404s on routes
-                fs.stat(path.join(PUBLIC_DIR, 'index.html'), (err404, fallbackStats) => {
-                    if (err404) {
-                        res.writeHead(404);
-                        return res.end('Not Found');
-                    }
-                    res.writeHead(200, { 'Content-Type': 'text/html', 'Cache-Control': 'no-cache, must-revalidate' });
-                    fs.createReadStream(path.join(PUBLIC_DIR, 'index.html')).pipe(res);
-                });
+                res.writeHead(404, { 'Content-Type': 'text/html', 'Cache-Control': 'no-store' });
+                res.end('<h1>404 Not Found</h1><p>The page you are looking for does not exist.</p>');
             } else {
                 res.writeHead(404);
                 res.end('Not Found');
