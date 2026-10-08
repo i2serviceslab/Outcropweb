@@ -2182,7 +2182,7 @@ textarea.form-control {
 .download-card {
     display: flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.02);
+    background: #ffffff;
     border: 1px solid var(--border-subtle);
     padding: 20px;
     text-decoration: none;
@@ -2191,7 +2191,7 @@ textarea.form-control {
 
 .download-card:hover {
     border-color: var(--brand-primary);
-    background: rgba(0, 223, 223, 0.03);
+    background: #f8fafc;
     transform: translateY(-2px);
 }
 
@@ -2214,7 +2214,7 @@ textarea.form-control {
 }
 
 .download-title {
-    color: #ffffff;
+    color: var(--text-primary);
     font-weight: 600;
     font-size: 0.95rem;
     margin: 0 0 4px 0;
