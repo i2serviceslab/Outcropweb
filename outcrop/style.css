@@ -2156,8 +2156,12 @@ textarea.form-control {
     padding: 0 16px;
 }
 
-.download-title {
-    color: var(--text-primary);
+.download-title,
+.download-card .download-title,
+a.download-card .download-title,
+.download-info .download-title,
+.download-info h4 {
+    color: var(--text-primary) !important;
     font-weight: 600;
     font-size: 0.95rem;
     margin: 0 0 4px 0;
