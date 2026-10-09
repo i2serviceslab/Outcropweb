@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Cache-Busting Meta Tags -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mallama Project | Outcrop Silver Corp.</title>
@@ -20,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css?v=20261008_v1">
+    <link rel="stylesheet" href="style.css?v=304.0">
 </head>
 <body>
 
@@ -87,7 +82,7 @@
                         </div>
                     </div>
                     
-                    <a href="esg.html" class="nav-link">ESG</a>
+                    <a href="index.html#esg-section" class="nav-link">ESG</a>
                 </div>
 
                 <div class="nav-links-right">
@@ -115,14 +110,14 @@
             <a href="oribella.html" class="mobile-sub-link">— Oribella Project</a>
             <a href="argelia.html" class="mobile-sub-link">— Argelia Project</a>
             <a href="investors.html" class="mobile-link">Investors</a>
-            <a href="esg.html" class="mobile-link">ESG</a>
+            <a href="index.html#esg-section" class="mobile-link">ESG</a>
             <a href="news.html" class="mobile-link">News</a>
             <a href="https://outcropsilver.com/site/assets/files/6346/corporate_presentation_-_outcropsilver_-_august_2026_-_digital_new_3.pdf" target="_blank" class="mobile-link"><i class="fa-solid fa-file-pdf"></i> Presentation</a>
         </div>
     </div>
 
     <!-- Internal Hero Banner -->
-    <section class="internal-hero" style="background-image: url('assets/mallama_project_cover.jpg?v=20261005_v3');">
+    <section class="internal-hero" style="background-image: url('assets/mallama_project_cover.jpg?v=28.0');">
         <div class="internal-hero-overlay"></div>
         <div class="internal-hero-content">
             <h1 class="internal-title">Mallama Project</h1>
@@ -257,7 +252,7 @@
         </div>
     </footer>
 
-    <script src="script.js?v=20261005_v3"></script>
+    <script src="script.js?v=300.0"></script>
 
     
     
@@ -265,7 +260,6 @@
     <script>
     document.addEventListener('DOMContentLoaded', async () => {
         const symbols = {
-            'OCG.TO': { priceId: 'tsx-price', changeId: 'tsx-change', curr: 'C$' },
             'OCG.V': { priceId: 'tsx-price', changeId: 'tsx-change', curr: 'C$' },
             'OCGSF': { priceId: 'otcqx-price', changeId: 'otcqx-change', curr: '$' },
             'MRG.F': { priceId: 'fse-price', changeId: 'fse-change', curr: '€' },
@@ -282,25 +276,16 @@
         };
         
         const fallbackData = {
-            'OCG.TO': { price: 0.28, change: -3.45 },
-            'OCG.V': { price: 0.28, change: -3.45 },
-            'OCGSF': { price: 0.20, change: -0.10 },
-            'MRG.F': { price: 0.173, change: 1.29 },
-            'SI=F': { price: 61.32, change: 1.51 }
+            'OCG.V': { price: 0.36, change: -1.37 },
+            'OCGSF': { price: 0.27, change: 12.50 },
+            'MRG.F': { price: 0.222, change: 10.17 },
+            'SI=F': { price: 38.45, change: 2.29 }
         };
 
         const updateDOM = (symbol, price, changePercent) => {
             const ids = symbols[symbol];
             if (!ids) return;
-            let formattedPrice = '';
-            if (symbol === 'SI=F') {
-                formattedPrice = price.toFixed(2) + '/Oz';
-            } else if (symbol === 'MRG.F') {
-                formattedPrice = price.toFixed(3);
-            } else {
-                formattedPrice = price.toFixed(2);
-            }
-            document.getElementById(ids.priceId).innerText = ids.curr + formattedPrice;
+            document.getElementById(ids.priceId).innerText = ids.curr + (symbol === 'SI=F' ? price.toFixed(2) + '/Oz' : (price < 1 ? price.toFixed(3) : price.toFixed(2)));
             document.getElementById(ids.changeId).innerHTML = formatChange(changePercent);
         };
 
