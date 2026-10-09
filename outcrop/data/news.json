@@ -1,1075 +1,1144 @@
 {
-    "items": [
-        {
-            "date": "September 14, 2026",
-            "year": "2026",
-            "title": "Outcrop Silver Announces Updated Mineral Resource Estimate for the Santa Ana Primary Silver Project",
-            "summary": "Indicated resources contain 29.9 Moz AgEq at 519 g/t AgEq and Inferred resources contain 27.9 Moz AgEq at 369 g/t AgEq, confirming high grades and expanding resources across 13 vein systems.",
-            "category": "Mineral Resource",
-            "pdfUrl": "assets/pdfs/2026/20260914_nr_updated_mineral_resource_estimate_santa_ana.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "August 5, 2026",
-            "year": "2026",
-            "title": "Outcrop Silver Reports High-Grade Drill Results from Aguilar and Morena Targets",
-            "summary": "Assay results from exploration drilling at Aguilar and Morena targets continue to expand high-grade silver mineralized shoots within the flagship Santa Ana project.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2026/20260805_nr_dh_results_-_aguilar_morena_final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "July 23, 2026",
-            "year": "2026",
-            "title": "Outcrop Silver Presents at the Precious Metals & Critical Minerals Virtual Investor Conference",
-            "summary": "Outcrop Silver & Gold Corporation presented an update on the progress of its high-grade primary silver project, Santa Ana, highlighting resource definitions and optimization paths.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2026/20260805_nr_dh_results_-_aguilar_morena_final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "June 3, 2026",
-            "year": "2026",
-            "title": "Outcrop Expands Aguilar Vein System with New High-Grade Silver Intercepts",
-            "summary": "Drilling results show continued expansion of high-grade mineralization along the Aguilar vein system, reinforcing growth potential in our flagship asset.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2026/260603-outcrop-news-release-aguilar-drilling-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/outcrop-expands-aguilar-vein-system-with-new-high-grade-silver-intercepts/"
-        },
-        {
-            "date": "June 2, 2026",
-            "year": "2026",
-            "title": "Outcrop Silver Engages Investor Relations Consultant",
-            "summary": "The Company is expanding its inbound and outbound investor relations through an experienced IR consultant.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2026/260602-outcrop-news-release-ir-consultant-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/outcrop-silver-engages-investor-relations-consultant/"
-        },
-        {
-            "date": "May 19, 2026",
-            "year": "2026",
-            "title": "Outcrop Silver Appoints Carlos Torres as VP Exploration to Advance Resource Growth",
-            "summary": "An experienced exploration geologist with mining experience joins the leadership team to accelerate resource growth and development at the Santa Ana project.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2026/260519-outcrop-news-release-vp-expl-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/outcrop-silver-appoints-vp-exploration-to-advance-santa-ana-resource-growth-and-project-development/"
-        },
-        {
-            "date": "April 30, 2026",
-            "year": "2026",
-            "title": "Outcrop Reports Additional High-Grade Drill Results from Guadual Target",
-            "summary": "Drilling at the Guadual target continues to yield excellent results, demonstrating solid thickness and high-grade silver mineralization in newly tested shoots.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2026/nr_dh_results_-_guadual_30_apr_2026_final_draft.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "April 20, 2026",
-            "year": "2026",
-            "title": "Outcrop Silver Announces Management Transition: Appoints Rob Bruggeman as CEO",
-            "summary": "The Corporation announces the transition of its executive team, appointing Rob Bruggeman as President, CEO, and Director, bringing over 20 years of mining finance experience.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2026/260420_outcrop_news_release_ceo.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "January 20, 2026",
-            "year": "2026",
-            "title": "Outcrop Reports Resource Definition Drilling Results at Aguilar Vein",
-            "summary": "Assay results from resource definition drilling at the Aguilar vein target continue to define thick, high-grade shoots, supporting mineral resource update calculations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2026/nr_2026_drilling_aguilar_resource_drilling_update_draftv2_ips_gh_clean-kl-gh-clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "January 9, 2026",
-            "year": "2026",
-            "title": "Outcrop Silver Announces Results of Annual General and Special Meeting",
-            "summary": "All resolutions proposed at the Annual General and Special Meeting of Shareholders (AGM) were successfully passed, including the reelection of the board of directors.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2026/260109_agm_results_outcrop_silver.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "December 17, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Publishes Annual Letter to Shareholders",
-            "summary": "President and CEO reviews the milestone achievements of 2025, detailing exploration expansions, drilling program advancements, and graduation to the TSX main board.",
-            "category": "Corporate",
-            "pdfUrl": "",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "November 26, 2025",
-            "year": "2025",
-            "title": "Outcrop Extends Aguilar Vein 450 Metres South",
-            "summary": "Step-out drilling along the Aguilar vein system has successfully extended the mapped mineralization structure by 450 metres to the south.",
-            "category": "Exploration",
-            "pdfUrl": "",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "November 17, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Completes Graduation to TSX Main Board",
-            "summary": "Outcrop Silver is pleased to announce it has completed all requirements for listing on the Toronto Stock Exchange, with trading to commence on the main board.",
-            "category": "Corporate",
-            "pdfUrl": "",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "October 03, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Outcrop Closing News Release 2025 10 03",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop closing news release 2025 10 03 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/outcrop-closing-news-release-2025-10-03.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "September 24, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/2025-09-24-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "September 24, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Outcrop News Release 2025 09 24 Vf",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop news release 2025 09 24 vf at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/outcrop-news-release-2025-09-24-vf.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "July 22, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Announces Sixth Discovery at Morena Target",
-            "summary": "Initial exploration drilling at the Morena target has resulted in high-grade silver intercepts, confirming a sixth major discovery within the Santa Ana district.",
-            "category": "Exploration",
-            "pdfUrl": "",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "July 08, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/2025-07-08-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "June 24, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Hmmfm91Hh1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg hmmfm91hh1 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/2025-06-24-nr-ocg-hmmfm91hh1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "June 17, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr Ocg 89Yhbd1Ty",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg 89yhbd1ty at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/2025-06-17-nr-ocg-89yhbd1ty.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "June 04, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 06 04 Ocg Drilling Guadual Update Dh450 To Dh463 En Gh Ips Ciro",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 06 04 ocg drilling guadual update dh450 to dh463 en gh ips ciro at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr-2025-06-04-ocg-drilling-guadual-update-dh450-to-dh463-en-gh-ips-ciro.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "May 14, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 05 14 Drilling Los Mangos Hole Dh461 Dh464 Ih Kl Gh Ciro Ips Clean",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 05 14 drilling los mangos hole dh461 dh464 ih kl gh ciro ips clean at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr-2025-05-14-drilling-los-mangos-hole-dh461-dh464-ih-kl-gh-ciro-ips-clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "April 22, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Iasf98Hg1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg iasf98hg1 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/2025-04-22-nr-ocg-iasf98hg1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "March 12, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr Ocg 008J776T",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg 008j776t at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/2025-03-12-nr-ocg-008j776t.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "February 14, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/2025-02-14-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "February 12, 2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Motoh1552",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg motoh1552 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/2025-02-12-nr-ocg-motoh1552.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr Amend Sop Ocg",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr amend sop ocg at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/250213_nr_amend_sop_ocg.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Outcrop Closing News Release",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop closing news release at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/250327_outcrop_closing_news_release.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Dear Fellow Shareholders Final 1216 Core Photos Replaced Mediacontact Included",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding dear fellow shareholders final 1216 core photos replaced mediacontact included at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/dear_fellow_shareholders_final_1216-core_photos_replaced-mediacontact_included.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Amandip Singh",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 amandip singh at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_amandip_singh.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling Aguilar Stepout 450 M Kl Ips Gh Clean",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling aguilar stepout 450 m kl ips gh clean at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_aguilar_stepout_450_m-kl_ips_gh-clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling Guadual Discovery Ips En Clean Gh2 Kl Ciro Gh3 Ih Gh4 Clean",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling guadual discovery ips en clean gh2 kl ciro gh3 ih gh4 clean at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_guadual_discovery_ips_en-clean_gh2-kl-ciro-gh3-ih_gh4-clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling Guadual Resource Drilling Update Final3 Ciro Gh3",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling guadual resource drilling update final3 ciro gh3 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_guadual_resource_drilling_update-final3_ciro_gh3.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling La Ye Update Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling la ye update final at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_la_ye_update-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling Los Mangos Dh451 Ips En Gh2 Ips Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling los mangos dh451 ips en gh2 ips final at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_los_mangos_dh451_ips_en_gh2_ips-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling Los Mangos Hole Dh459 Ih Ips Gh Ips Ciro2",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling los mangos hole dh459 ih ips gh ips ciro2 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_los_mangos_hole_dh459_ih_ips_gh_ips_ciro2.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling Los Mangos Update Ips Gh Ciro Gh2",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling los mangos update ips gh ciro gh2 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_los_mangos_update_ips_gh-ciro_gh2.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling Morena Discovery Ips Ciro Ih Gh Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling morena discovery ips ciro ih gh final at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_morena_discovery_ips-ciro_ih_gh-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Drilling Pearl Drilling Commencement Jv Golden Mile Ips Clean",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 drilling pearl drilling commencement jv golden mile ips clean at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_pearl_drilling_commencement_jv_golden_mile_ips-clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Options April",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 options april at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_options_april.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Trading On Tsx",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 trading on tsx at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_trading_on_tsx.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr 2025 Uplist To Tsx",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2025 uplist to tsx at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/nr_2025_uplist_to_tsx.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Nr June 2025 Kramer",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr june 2025 kramer at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/nr_june_2025_kramer.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Outcrop Correction To Closing News Release March 2025 V1 002 Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop correction to closing news release march 2025 v1 002 final at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/outcrop_-_correction_to_closing_news_release_march_2025_v1_002_-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Prospectus Offering Press Release March 2025 Vf",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver prospectus offering press release march 2025 vf at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/outcrop_silver_-_prospectus_offering_press_release_march_2025_vf.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Prospectus Offering Upsize Press Release March 2025 V2 Clean",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver prospectus offering upsize press release march 2025 v2 clean at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/outcrop_silver_-_prospectus_offering_upsize_press_release_march_2025_v2_clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2025",
-            "year": "2025",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Annual Letter To Shareholders Jan12",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver annual letter to shareholders jan12 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2025/outcrop_silver_annual_letter_to_shareholders-jan12.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "November 19, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Btm0H0155S2",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg btm0h0155s2 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-11-19-nr-ocg-btm0h0155s2.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "November 01, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Wamth105Jkf",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg wamth105jkf at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-11-01-nr-ocg-wamth105jkf.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "October 23, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Plmj6Tf41",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg plmj6tf41 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-10-23-nr-ocg-plmj6tf41.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "October 08, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Yukm10H5Ed1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg yukm10h5ed1 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-10-08-nr-ocg-yukm10h5ed1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "October 03, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Nc8Gh9G5Fr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg nc8gh9g5fr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-10-03-nr-ocg-nc8gh9g5fr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "August 28, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Fr9Hs15Hos",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg fr9hs15hos at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-08-28-nr-ocg-fr9hs15hos.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "April 25, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Dgm Conference Press Release",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding dgm conference press release at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-04-25-dgm-conference-press-release.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "April 24, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-04-24-outcrop-silver-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "April 22, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-04-22-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "April 09, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr Ocg 114H8Gggr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg 114h8gggr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-04-09-nr-ocg-114h8gggr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "March 26, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Yn50Shyys",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg yn50shyys at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-03-26-nr-ocg-yn50shyys.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "January 24, 2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Ceo Lts 2",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ceo lts 2 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/2024-01-24-ceo-lts-2.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Press Release Outcrop Prospectus Offering Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding press release outcrop prospectus offering final at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/240303_press_release_outcrop_prospectus_offering_final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Draft Nr 2024 June18 Drilling Aguilar Clean Rev3Gh",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding draft nr 2024 june18 drilling aguilar clean rev3gh at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2024/draft_nr_2024_june18_drilling_aguilar-clean_rev3gh.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 Drill Program March 18 2024 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 drill program march 18 2024 1 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/nr-2024-drill-program-march-18-2024-1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 Drilling Aguilar Update Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 drilling aguilar update final at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2024/nr_2024_drilling_aguilar_update_final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 Drilling Jimenez Campaign Closure At Jimenez Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 drilling jimenez campaign closure at jimenez final at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2024/nr_2024_drilling_jimenez_campaign_closure_at_jimenez-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 Drillingupdate Aguilar Jimenez Guadual Ips En",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 drillingupdate aguilar jimenez guadual ips en at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2024/nr_2024_drillingupdate_aguilar_jimenez_guadual_ips_en.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 Exploration Strategy Final 2 Clean",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 exploration strategy final 2 clean at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/nr_2024_exploration_strategy-final-2-clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 July17 Drilling Aguilar Final 2",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 july17 drilling aguilar final 2 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2024/nr_2024_july17_drilling_aguilar_final-2.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 June 25 Gravimetric Flotation Test Work Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 june 25 gravimetric flotation test work final at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/nr_2024_june_25_gravimetric-flotation_test_work_final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 Options Nov",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 options nov at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/nr_2024_options_nov.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Nr 2024 Regional Exploration Update Final 1112",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr 2024 regional exploration update final 1112 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/nr_2024_regional_exploration_update-final-1112.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Outcrop 2024 Prospectus Supplement Closing News Rel",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop 2024 prospectus supplement closing news rel at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/outcrop_-_2024_prospectus_supplement_-_closing_news_rel.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver And Gold Press Release Non Brokered",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver and gold press release non brokered at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/outcrop_silver_and_gold_-_press_release_-_non-brokered.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2024",
-            "year": "2024",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Announces Marketing Service Agreement",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver announces marketing service agreement at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2024/outcrop_silver_announces_marketing_service_agreement.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "November 30, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-11-30-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "November 06, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Ocg",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-11-06-nr-ocg.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "October 30, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-10-30-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "October 25, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-10-25-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "September 27, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-09-27-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "September 06, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Ltr864 99Pdf",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg ltr864 99pdf at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-09-06-nr-ocg-ltr864_99pdf.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "August 31, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-08-31-ocg_nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "August 23, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-08-23-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "July 21, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Alh77519Io",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg alh77519io at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-07-21-nr-ocg-alh77519io.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "July 20, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-07-20-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "June 27, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-06-27_ocg_nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "May 02, 2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Ocg Nr",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding ocg nr at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/2023-05-02-ocg-nr.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Metals Mining Pr Outcrop V1 Em",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding metals mining pr outcrop v1 em at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/02_06_metals_mining_pr_outcrop-v1_em.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana April26 2023 Mre",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana april26 2023 mre at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr-santa-ana-april26-2023-mre.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Letter To Shareholders Jan 18 2023 Final 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr letter to shareholders jan 18 2023 final 1 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/nr_letter_to_shareholders_jan_18_2023-final_1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana April5 2023 Metallurgicaltestsresults Final 907Hour",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana april5 2023 metallurgicaltestsresults final 907hour at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr_santa_ana_april5_2023_metallurgicaltestsresults-final-907hour.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana Febuary 14 2023",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana febuary 14 2023 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr_santa_ana_febuary_14_2023.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana Jan 3 2023",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana jan 3 2023 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr_santa_ana_jan_3_2023.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana January 27 2023 Final 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana january 27 2023 final 1 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr_santa_ana_january_27_2023_final-1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana January 30 2023 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana january 30 2023 1 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr_santa_ana_january_30_2023_1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana June 12 2023 Ni 43 101 Filing On Mre Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana june 12 2023 ni 43 101 filing on mre final at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr_santa_ana_june_12_2023_ni_43_101_filing_on_mre-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana June 20 2023 Revgh Kl Clean",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana june 20 2023 revgh kl clean at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr_santa_ana_june_20_2023_revgh-kl-clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana March 14 2023",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana march 14 2023 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2023/nr_santa_ana_march_14_2023.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Outcrop Zacapa Joint News Release Re Completion Of Ama",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop zacapa joint news release re completion of ama at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/outcrop-zacapa_joint_news_release_re_completion_of_ama.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Outcrop Closing News Release V8",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop closing news release v8 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/outcrop_-_closing_news_release_v8.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Gold Invites You To Join Us At The Deutsche Goldmesse In Frankfurt 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver gold invites you to join us at the deutsche goldmesse in frankfurt 1 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/outcrop_silver_gold_invites_you_to_join_us_at_the_deutsche_goldmesse_in_frankfurt-1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2023",
-            "year": "2023",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Issues Clarification Regarding Agreement",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver issues clarification regarding agreement at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2023/outcrop_silver_issues_clarification_regarding_agreement.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "June 02, 2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Ocg Chk01Orlitsf",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr ocg chk01orlitsf at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2022/2022-06-02-nr-ocg-chk01orlitsf.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Metals Mining Pr Outcrop Kl Jh 0711",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding metals mining pr outcrop kl jh 0711 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2022/07_22_metals_mining_pr_outcrop-kl_jh-0711.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Metals Mining Pr Outcrop Eem",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding metals mining pr outcrop eem at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2022/11_23_metals_mining_pr_outcrop_eem.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Press Release Closing Offering",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver press release closing offering at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2022/220922_outcrop_silver_press_release_closing_offering.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Outcrop Cfo October 5 2022",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr outcrop cfo october 5 2022 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2022/nr_outcrop_cfo_october_5_2022.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Outcrop Director November 1 2022",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr outcrop director november 1 2022 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2022/nr_outcrop_director_november_1_2022.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Outcrop Kathy Li And Options June 24 2022 Final Clean",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr outcrop kathy li and options june 24 2022 final clean at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2022/nr_outcrop_kathy_li_and_options_june_24_2022-final_clean.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana August 23 2022 Kl",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana august 23 2022 kl at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_august_23_2022-kl.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana August 9 2022 957Pm Time Clean 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana august 9 2022 957pm time clean 1 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_august_9_2022-957pm_time-clean-1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana December 29 2022",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana december 29 2022 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_december_29_2022.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana December 7 2022",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana december 7 2022 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_december_7_2022.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana July 14 2022 Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana july 14 2022 final at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_july_14_2022-final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana July 27 2022 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana july 27 2022 1 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_july_27_2022_1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana July 5 2022 Final Docx",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana july 5 2022 final docx at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_july_5_2022-final_docx.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana June 13 2022",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana june 13 2022 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_june_13_2022.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana November 03 2022 Final 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana november 03 2022 final 1 at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_november_03_2022-final-1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana November 22 2022 Final",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana november 22 2022 final at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_november_22_2022_final.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Nr Santa Ana October 27 2022 Final Clean Version Gh",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding nr santa ana october 27 2022 final clean version gh at its operations.",
-            "category": "Exploration",
-            "pdfUrl": "assets/pdfs/2022/nr_santa_ana_october_27_2022-final_clean_version_gh.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        },
-        {
-            "date": "2022",
-            "year": "2022",
-            "title": "Outcrop Silver Releases Update: Outcrop Silver Gold Press Release Offering Sept 2022 1",
-            "summary": "Outcrop Silver & Gold Corporation issued a corporate announcement regarding outcrop silver gold press release offering sept 2022 1 at its operations.",
-            "category": "Corporate",
-            "pdfUrl": "assets/pdfs/2022/outcrop_silver_gold_press_release_offering_sept_2022_1.pdf",
-            "readUrl": "https://outcropsilver.com/news/"
-        }
-    ]
+  "items": [
+    {
+      "date": "August 5, 2026",
+      "year": "2026",
+      "title": "Outcrop Silver Reports High-Grade Drill Results from Aguilar and Morena Targets",
+      "summary": "Assay results from exploration drilling at Aguilar and Morena targets continue to expand high-grade silver mineralized shoots within the flagship Santa Ana project.",
+      "category": "Exploration",
+      "pdfUrl": "assets/pdfs/2026/20260805_nr_dh_results_-_aguilar_morena_final.pdf",
+      "readUrl": "https://outcropsilver.com/news/",
+      "id": "1"
+    },
+    {
+      "date": "July 23, 2026",
+      "year": "2026",
+      "title": "Outcrop Silver Presents at the Precious Metals & Critical Minerals Virtual Investor Conference",
+      "summary": "Outcrop Silver & Gold Corporation presented an update on the progress of its high-grade primary silver project, Santa Ana, highlighting resource definitions and optimization paths.",
+      "category": "Corporate",
+      "pdfUrl": "assets/pdfs/2026/20260805_nr_dh_results_-_aguilar_morena_final.pdf",
+      "readUrl": "https://outcropsilver.com/news/",
+      "id": "2"
+    },
+    {
+      "date": "June 3, 2026",
+      "year": "2026",
+      "title": "Outcrop Expands Aguilar Vein System with New High-Grade Silver Intercepts",
+      "summary": "Drilling results show continued expansion of high-grade mineralization along the Aguilar vein system, reinforcing growth potential in our flagship asset.",
+      "category": "Exploration",
+      "pdfUrl": "assets/pdfs/2026/260603-outcrop-news-release-aguilar-drilling-final.pdf",
+      "readUrl": "https://outcropsilver.com/news/outcrop-expands-aguilar-vein-system-with-new-high-grade-silver-intercepts/",
+      "id": "3"
+    },
+    {
+      "date": "June 2, 2026",
+      "year": "2026",
+      "title": "Outcrop Silver Engages Investor Relations Consultant",
+      "summary": "The Company is expanding its inbound and outbound investor relations through an experienced IR consultant.",
+      "category": "Corporate",
+      "pdfUrl": "assets/pdfs/2026/260602-outcrop-news-release-ir-consultant-final.pdf",
+      "readUrl": "https://outcropsilver.com/news/outcrop-silver-engages-investor-relations-consultant/",
+      "id": "4"
+    },
+    {
+      "date": "May 19, 2026",
+      "year": "2026",
+      "title": "Outcrop Silver Appoints Carlos Torres as VP Exploration to Advance Resource Growth",
+      "summary": "An experienced exploration geologist with mining experience joins the leadership team to accelerate resource growth and development at the Santa Ana project.",
+      "category": "Corporate",
+      "pdfUrl": "assets/pdfs/2026/260519-outcrop-news-release-vp-expl-final.pdf",
+      "readUrl": "https://outcropsilver.com/news/outcrop-silver-appoints-vp-exploration-to-advance-santa-ana-resource-growth-and-project-development/",
+      "id": "5"
+    },
+    {
+      "date": "April 30, 2026",
+      "year": "2026",
+      "title": "Outcrop Reports Additional High-Grade Drill Results from Guadual Target",
+      "summary": "Drilling at the Guadual target continues to yield excellent results, demonstrating solid thickness and high-grade silver mineralization in newly tested shoots.",
+      "category": "Exploration",
+      "pdfUrl": "assets/pdfs/2026/nr_dh_results_-_guadual_30_apr_2026_final_draft.pdf",
+      "readUrl": "https://outcropsilver.com/news/",
+      "id": "6"
+    },
+    {
+      "date": "April 20, 2026",
+      "year": "2026",
+      "title": "Outcrop Silver Announces Management Transition: Appoints Rob Bruggeman as CEO",
+      "summary": "The Corporation announces the transition of its executive team, appointing Rob Bruggeman as President, CEO, and Director, bringing over 20 years of mining finance experience.",
+      "category": "Corporate",
+      "pdfUrl": "assets/pdfs/2026/260420_outcrop_news_release_ceo.pdf",
+      "readUrl": "https://outcropsilver.com/news/",
+      "id": "7"
+    },
+    {
+      "date": "January 20, 2026",
+      "year": "2026",
+      "title": "Outcrop Reports Resource Definition Drilling Results at Aguilar Vein",
+      "summary": "Assay results from resource definition drilling at the Aguilar vein target continue to define thick, high-grade shoots, supporting mineral resource update calculations.",
+      "category": "Exploration",
+      "pdfUrl": "assets/pdfs/2026/nr_2026_drilling_aguilar_resource_drilling_update_draftv2_ips_gh_clean-kl-gh-clean.pdf",
+      "readUrl": "https://outcropsilver.com/news/",
+      "id": "8"
+    },
+    {
+      "date": "January 9, 2026",
+      "year": "2026",
+      "title": "Outcrop Silver Announces Results of Annual General and Special Meeting",
+      "summary": "All resolutions proposed at the Annual General and Special Meeting of Shareholders (AGM) were successfully passed, including the reelection of the board of directors.",
+      "category": "Corporate",
+      "pdfUrl": "assets/pdfs/2026/260109_agm_results_outcrop_silver.pdf",
+      "readUrl": "https://outcropsilver.com/news/",
+      "id": "9"
+    },
+    {
+      "date": "December 17, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Publishes Annual Letter to Shareholders",
+      "summary": "President and CEO Ian Harris reviews milestone achievements in 2025, detailing exploration expansions, drilling successes, and sustainable development at Santa Ana.",
+      "link": "assets/pdfs/2025/dear_fellow_shareholders_final_1216-core_photos_replaced-mediacontact_included.pdf",
+      "pdfUrl": "assets/pdfs/2025/dear_fellow_shareholders_final_1216-core_photos_replaced-mediacontact_included.pdf",
+      "tag": "Corporate News",
+      "id": "10"
+    },
+    {
+      "date": "November 26, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Extends Aguilar Vein 450 Metres South and Identifies Potential New High-grade Shoots in Blind Targets",
+      "summary": "Outcrop Silver & Gold Corporation (TSX:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce new drill results from its ongoing exploration program at the Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/nr_2025_drilling_aguilar_stepout_450_m-kl_ips_gh-clean.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_aguilar_stepout_450_m-kl_ips_gh-clean.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "11"
+    },
+    {
+      "date": "November 17, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Graduates to TSX",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”or the “Company”) is pleased to announce that it has received final approval for the listing of common shares on the Toronto Stock Exchange (the “ TSX”), moving from the TSX Venture Exchange (the “",
+      "link": "assets/pdfs/2025/nr_2025_trading_on_tsx.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_trading_on_tsx.pdf",
+      "tag": "Corporate News",
+      "id": "12"
+    },
+    {
+      "date": "November 06, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces Conditional Approval to Graduate to TSX",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver” or the “Company”) is pleased to announce that it has received conditional approval to list its common shares on the Toronto Stock Exchange (the “ TSX”), moving from the TSX Venture Exchange (the “",
+      "link": "assets/pdfs/2025/nr_2025_uplist_to_tsx.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_uplist_to_tsx.pdf",
+      "tag": "Corporate News",
+      "id": "13"
+    },
+    {
+      "date": "October 03, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces Closing of $23 Million Public Offering, Led by Jupiter Asset Management and Eric Sprott",
+      "summary": "Outcrop Silver & Gold Corporation announces the closing of its bought deal public offering for total gross proceeds of approximately $23 million, including full exercise of the over-allotment option.",
+      "link": "assets/pdfs/2025/outcrop-closing-news-release-2025-10-03.pdf",
+      "pdfUrl": "assets/pdfs/2025/outcrop-closing-news-release-2025-10-03.pdf",
+      "tag": "Financing",
+      "id": "14"
+    },
+    {
+      "date": "September 24, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Strengthens Treasury with $4.1 Million from Warrant Exercises",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce that it has received total proceeds of C$4,145,742 from the exercise of 18,774,099 common share purchase warrants (the “Warrants”) at an average price of C$0.22 per warrant",
+      "link": "assets/pdfs/2025/2025-09-24-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2025/2025-09-24-ocg-nr.pdf",
+      "tag": "Financing",
+      "id": "15"
+    },
+    {
+      "date": "September 24, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces $20 Million Public Offering",
+      "summary": "Outcrop Silver announces a bought deal public offering of common shares and warrants for aggregate gross proceeds of $20 million to advance its Santa Ana silver project.",
+      "link": "assets/pdfs/2025/outcrop-news-release-2025-09-24-vf.pdf",
+      "pdfUrl": "assets/pdfs/2025/outcrop-news-release-2025-09-24-vf.pdf",
+      "tag": "Financing",
+      "id": "16"
+    },
+    {
+      "date": "September 03, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Extends High-grade at Guadual: 2.35 m of 3,092 g/t Silver; Three-rig Program Advancing Resource Expansion",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) reports new high-grade intercepts from the Guadual vein at its 100%-owned Santa Ana primary silver project in Colombia, including 2.35 metres (“m”) of 3,092 grams per tonne (“g/t”) silver (“Ag”) ",
+      "link": "assets/pdfs/2025/nr_2025_drilling_guadual_resource_drilling_update-final3_ciro_gh3.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_guadual_resource_drilling_update-final3_ciro_gh3.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "17"
+    },
+    {
+      "date": "August 07, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Continues to Extend Los Mangos Vein to the North",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to report additional high-grade assay results from step-out drilling at the Los Mangos vein within the Santa Ana high- grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/nr_2025_drilling_los_mangos_update_ips_gh-ciro_gh2.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_los_mangos_update_ips_gh-ciro_gh2.pdf",
+      "tag": "Corporate News",
+      "id": "18"
+    },
+    {
+      "date": "August 06, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Strengthens Executive Team Ahead of Resource Update",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the appointment of Amandip Singh as Vice President, Corporate Development.",
+      "link": "assets/pdfs/2025/nr_2025_amandip_singh.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_amandip_singh.pdf",
+      "tag": "Resource Estimate",
+      "id": "19"
+    },
+    {
+      "date": "July 22, 2025",
+      "year": "2025",
+      "title": "Morena Becomes Sixth High-grade Discovery in Santa Ana’s Current Drill Program",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the discovery of a new high-grade shoot at the Morena vein within its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/nr_2025_drilling_morena_discovery_ips-ciro_ih_gh-final.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_morena_discovery_ips-ciro_ih_gh-final.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "20"
+    },
+    {
+      "date": "July 08, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Drills 1.06 Metres at 1,930 g/t AgEq in 150-metre Step-out, Confirming High-grade Northern Extension and Expanding Los Mangos Vein System",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”)is pleased to report continued drilling success from the Los Mangos vein system, part of its 100%-owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/2025-07-08-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2025/2025-07-08-ocg-nr.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "21"
+    },
+    {
+      "date": "June 24, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Adds Third Drill Rig at Santa Ana to Expand Discovery Potential Beyond Current Resource Update",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”)is pleased to announce the addition of a third drill rig at its flagship Santa Ana high- grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/2025-06-24-nr-ocg-hmmfm91hh1.pdf",
+      "pdfUrl": "assets/pdfs/2025/2025-06-24-nr-ocg-hmmfm91hh1.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "22"
+    },
+    {
+      "date": "June 17, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Reports Exceptional Sensor-based Ore Sorting Results from La Porfia Vein at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”)ispleasedtoreportoutstandingresultsfromasensor-basedoresortingtestconducted onmineralizedmaterialfromtheLaPorfiavein,partofthehigh-gradeSantaAnaprimarysilverprojectin Colombia.Theprogram,carriedou",
+      "link": "assets/pdfs/2025/2025-06-17-nr-ocg-89yhbd1ty.pdf",
+      "pdfUrl": "assets/pdfs/2025/2025-06-17-nr-ocg-89yhbd1ty.pdf",
+      "tag": "Corporate News",
+      "id": "23"
+    },
+    {
+      "date": "June 12, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces Funding Partner for Kramer Hills",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce that Silver Mines Limited (“Silver Mines”) (ASX:SVL) has optioned Outcrop Silver’s Kramer Hills brownfield oxide gold property in San Bernardino, California, USA.",
+      "link": "assets/pdfs/2025/nr_june_2025_kramer.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_june_2025_kramer.pdf",
+      "tag": "Corporate News",
+      "id": "24"
+    },
+    {
+      "date": "June 04, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Confirms Consistent High-Grade and Wider Vein Intercepts at Guadual North",
+      "summary": "Drilling at Guadual North intercepts 1.86 metres at 519 g/t silver equivalent, expanding high-grade mineralization continuity along strike.",
+      "link": "assets/pdfs/2025/nr-2025-06-04-ocg-drilling-guadual-update-dh450-to-dh463-en-gh-ips-ciro.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr-2025-06-04-ocg-drilling-guadual-update-dh450-to-dh463-en-gh-ips-ciro.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "25"
+    },
+    {
+      "date": "May 14, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Expands Los Mangos Vein System with New High-grade Intercepts Including 3.86 Metres at 621 g/t Silver Equivalent",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”)ispleasedtoannouncenewdrillresultsfromtheLosMangosveinatits100%-owned SantaAnahigh-gradesilverprojectinColombia.Thelatestinterceptsfurtherconfirmthepresenceofwide, high-gradezoneswithinthesysteman",
+      "link": "assets/pdfs/2025/nr-2025-05-14-drilling-los-mangos-hole-dh461-dh464-ih-kl-gh-ciro-ips-clean.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr-2025-05-14-drilling-los-mangos-hole-dh461-dh464-ih-kl-gh-ciro-ips-clean.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "26"
+    },
+    {
+      "date": "May 08, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces Partner Funded Maiden Drill Program at the Pearl Copper Project, Arizona",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the commencement of the maiden drill program at the Pearl Copper Project located in Arizona, United States.",
+      "link": "assets/pdfs/2025/nr_2025_drilling_pearl_drilling_commencement_jv_golden_mile_ips-clean.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_pearl_drilling_commencement_jv_golden_mile_ips-clean.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "27"
+    },
+    {
+      "date": "May 06, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Intercepts One of the Best Holes To-date at the Recently Discovered Los Mangos Vein: 18.30 Metres at 992 g/t Silver Equivalent",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce a major high-grade silver drill result at the Los Mangos vein, part of its 100%-owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/nr_2025_drilling_los_mangos_hole_dh459_ih_ips_gh_ips_ciro2.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_los_mangos_hole_dh459_ih_ips_gh_ips_ciro2.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "28"
+    },
+    {
+      "date": "April 30, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Grants Options",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) has granted 4,950,000 incentive stock options to Directors, Officers and employees at an exercise price of $0.20 expiring on April 30, 2030.",
+      "link": "assets/pdfs/2025/nr_2025_options_april.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_options_april.pdf",
+      "tag": "Corporate News",
+      "id": "29"
+    },
+    {
+      "date": "April 29, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Adds Fifth Discovery in 12 Months with Guadual Delivering 0.90 Metres of 1,132 g/t Ag and 2.10 g/t Au (1,290 g/t AgEq)",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce a high-grade discovery at the Guadual vein, located in the central portion of its 100% -owned Santa Ana silver project in Colombia.",
+      "link": "assets/pdfs/2025/nr_2025_drilling_guadual_discovery_ips_en-clean_gh2-kl-ciro-gh3-ih_gh4-clean.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_guadual_discovery_ips_en-clean_gh2-kl-ciro-gh3-ih_gh4-clean.pdf",
+      "tag": "Corporate News",
+      "id": "30"
+    },
+    {
+      "date": "April 22, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Intersects 8.20 Metres of 669 Grams Silver Equivalent per Tonne at Los Mangos",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”)is pleased to announce new high-grade results from ongoing drilling at the Los Mangos vein, located in the central portion of the 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/2025-04-22-nr-ocg-iasf98hg1.pdf",
+      "pdfUrl": "assets/pdfs/2025/2025-04-22-nr-ocg-iasf98hg1.pdf",
+      "tag": "Corporate News",
+      "id": "31"
+    },
+    {
+      "date": "April 01, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Intercepts 7.18 Metres at 358 Grams per Tonne Silver Equivalent at Los Mangos",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the results from drill hole DH451 in the recently announced Los Mangos discovery at its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/nr_2025_drilling_los_mangos_dh451_ips_en_gh2_ips-final.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_los_mangos_dh451_ips_en_gh2_ips-final.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "32"
+    },
+    {
+      "date": "March 27, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces Closing of $7.5 Million Public Offering, Including Full Exercise of the Over-Allotment Option, Led by Investment from Eric Sprott",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG) (OTCQX: OCGSF) (DE: MRG) (\"Outcrop Silver\" or the “Company”) is pleased to announce that it has closed its previously announced public offering (the “Offering”) of 33,977,272 units of the Company (the \"Units\") at a price of $0.22 per ",
+      "link": "assets/pdfs/2025/250327_outcrop_closing_news_release.pdf",
+      "pdfUrl": "assets/pdfs/2025/250327_outcrop_closing_news_release.pdf",
+      "tag": "Financing",
+      "id": "33"
+    },
+    {
+      "date": "March 27, 2025",
+      "year": "2025",
+      "title": "Correction Notice of Press Release Announcing Closing of Offering",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG) (OTCQX: OCGSF) (DE: MRG) (\"Outcrop Silver\" or the “Company”) announces a correction to its earlier press release dated March 27, 2025 that the units issued in the public offering were each comprised of one common share of the Company ",
+      "link": "assets/pdfs/2025/outcrop_-_correction_to_closing_news_release_march_2025_v1_002_-final.pdf",
+      "pdfUrl": "assets/pdfs/2025/outcrop_-_correction_to_closing_news_release_march_2025_v1_002_-final.pdf",
+      "tag": "Financing",
+      "id": "34"
+    },
+    {
+      "date": "March 24, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces Upsize of Public Offering to $6.5 Million, Led by Investment from Eric Sprott",
+      "summary": "Due to strong investor demand, Outcrop Silver increases its public offering to aggregate gross proceeds of up to $6,500,000 at $0.22 per unit, led by Research Capital and Eric Sprott.",
+      "link": "assets/pdfs/2025/outcrop_silver_-_prospectus_offering_upsize_press_release_march_2025_v2_clean.pdf",
+      "pdfUrl": "assets/pdfs/2025/outcrop_silver_-_prospectus_offering_upsize_press_release_march_2025_v2_clean.pdf",
+      "tag": "Financing",
+      "id": "35"
+    },
+    {
+      "date": "March 21, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces $5 Million Public Offering of Units, Led by Investment from Eric Sprott",
+      "summary": "Outcrop Silver & Gold Corporation announces a best efforts public offering of units for aggregate gross proceeds of up to $5,000,000 at $0.22 per unit, with participation from Eric Sprott.",
+      "link": "assets/pdfs/2025/outcrop_silver_-_prospectus_offering_press_release_march_2025_vf.pdf",
+      "pdfUrl": "assets/pdfs/2025/outcrop_silver_-_prospectus_offering_press_release_march_2025_vf.pdf",
+      "tag": "Financing",
+      "id": "36"
+    },
+    {
+      "date": "March 12, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Makes a Discovery at Los Mangos, Stepping Out Four Kilometres South",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the discovery of high-grade mineralization through drilling at its 100% owned Santa Ana high-grade silver project in Colombia, after following the company’s strategy of mak",
+      "link": "assets/pdfs/2025/2025-03-12-nr-ocg-008j776t.pdf",
+      "pdfUrl": "assets/pdfs/2025/2025-03-12-nr-ocg-008j776t.pdf",
+      "tag": "Corporate News",
+      "id": "37"
+    },
+    {
+      "date": "February 14, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Announces the Election of Its Directors",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) announces the election of directors at the Annual General and Special Meeting of Shareholders.",
+      "link": "assets/pdfs/2025/2025-02-14-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2025/2025-02-14-ocg-nr.pdf",
+      "tag": "Management",
+      "id": "38"
+    },
+    {
+      "date": "February 13, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Amends Stock Option Plan",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) announces that the board of directors has approved the adoption of an amendment to its 10% rolling stock option plan to change it to a fixed number plan.",
+      "link": "assets/pdfs/2025/250213_nr_amend_sop_ocg.pdf",
+      "pdfUrl": "assets/pdfs/2025/250213_nr_amend_sop_ocg.pdf",
+      "tag": "Corporate News",
+      "id": "39"
+    },
+    {
+      "date": "February 12, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Extends High-grade Vein System Footprint to More Than 500 Metres with Step-out Drilling Along Strike at La Ye Vein System",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce recent high-grade results from La Lupe vein, part of La Ye vein system, at its 100% -owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/2025-02-12-nr-ocg-motoh1552.pdf",
+      "pdfUrl": "assets/pdfs/2025/2025-02-12-nr-ocg-motoh1552.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "40"
+    },
+    {
+      "date": "January 12, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Publishes Annual Letter to Shareholders",
+      "summary": "President and CEO reflects on a transformative 2024 for Santa Ana, highlighting high silver grades, metallurgical recoveries over 96%, and regional exploration progress.",
+      "link": "assets/pdfs/2025/outcrop_silver_annual_letter_to_shareholders-jan12.pdf",
+      "pdfUrl": "assets/pdfs/2025/outcrop_silver_annual_letter_to_shareholders-jan12.pdf",
+      "tag": "Corporate News",
+      "id": "41"
+    },
+    {
+      "date": "January 06, 2025",
+      "year": "2025",
+      "title": "Outcrop Silver Extends La Ye Vein System 450 Metres Along Strike and 200 Metres at Depth with High-grade Silver Drill Intercepts",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to provide an update on drilling assay results from the La Ye vein at its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2025/nr_2025_drilling_la_ye_update-final.pdf",
+      "pdfUrl": "assets/pdfs/2025/nr_2025_drilling_la_ye_update-final.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "42"
+    },
+    {
+      "date": "December 05, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Expands High-grade Silver Resource Potential at the Jimenez Target Intercepting 5.08 Metres Grading 336 Grams per Tonne Silver Equivalent",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce recent assay results from the Jimenez vein at its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2024/nr_2024_drilling_jimenez_campaign_closure_at_jimenez-final.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr_2024_drilling_jimenez_campaign_closure_at_jimenez-final.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "43"
+    },
+    {
+      "date": "November 19, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Continues to Intercept High-grade Silver at La Ye Discovery",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to provide an update on exploration drilling at La Ye vein target within its 100% owned Santa Ana high-grade primary silver project.",
+      "link": "assets/pdfs/2024/2024-11-19-nr-ocg-btm0h0155s2.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-11-19-nr-ocg-btm0h0155s2.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "44"
+    },
+    {
+      "date": "November 12, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Provides an Update on Its Regional Exploration Program at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to provide an update on the regional exploration and target generation program.",
+      "link": "assets/pdfs/2024/nr_2024_regional_exploration_update-final-1112.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr_2024_regional_exploration_update-final-1112.pdf",
+      "tag": "Corporate News",
+      "id": "45"
+    },
+    {
+      "date": "November 08, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Grants Options",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) has granted 6,250,000 incentive stock options to Directors, Officers and employees at an exercise price of $0.25 expiring on October 31, 2029.",
+      "link": "assets/pdfs/2024/nr_2024_options_nov.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr_2024_options_nov.pdf",
+      "tag": "Corporate News",
+      "id": "46"
+    },
+    {
+      "date": "November 01, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Appoints Robert Scott as Chief Financial Officer",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver ”) is pleased to announce the appointment of Robert Scott to the position of Chief Financial Officer effective November 1, 2024.",
+      "link": "assets/pdfs/2024/2024-11-01-nr-ocg-wamth105jkf.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-11-01-nr-ocg-wamth105jkf.pdf",
+      "tag": "Management",
+      "id": "47"
+    },
+    {
+      "date": "October 23, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Reports Additional Drill Results from the Jimenez Target at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) provides an update on exploration drilling at the Jimenez vein target in its 100% owned Santa Ana high-grade primary silver project.",
+      "link": "assets/pdfs/2024/2024-10-23-nr-ocg-plmj6tf41.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-10-23-nr-ocg-plmj6tf41.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "48"
+    },
+    {
+      "date": "October 16, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Reports Consistently Intercepts High- Grade Silver at Aguilar, Reinforcing Potential for Resource Growth at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to provide an update on exploration drilling at the Aguilar vein in its 100% owned Santa Ana high-grade primary silver project.",
+      "link": "assets/pdfs/2024/nr_2024_drilling_aguilar_update_final.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr_2024_drilling_aguilar_update_final.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "49"
+    },
+    {
+      "date": "October 08, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Makes a Discovery at La Ye Vein in Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the results from the first hole at La Ye vein target as the company continues the execution of its 2024 drill campaign at its 100% owned Santa Ana prim ary silver project.",
+      "link": "assets/pdfs/2024/2024-10-08-nr-ocg-yukm10h5ed1.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-10-08-nr-ocg-yukm10h5ed1.pdf",
+      "tag": "Corporate News",
+      "id": "50"
+    },
+    {
+      "date": "October 03, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Closes $5 Million Private Placement Financing with Eric Sprott",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG) (OTCQX: OCGSF) (DE: MRG) (\" Outcrop Silver\" or the “ Company”) is pleased to announce it has closed a non-brokered private placement offering of 22,727,273 units of the Company (the “Units”) at a price of $0.22 per Unit for aggregate ",
+      "link": "assets/pdfs/2024/2024-10-03-nr-ocg-nc8gh9g5fr.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-10-03-nr-ocg-nc8gh9g5fr.pdf",
+      "tag": "Financing",
+      "id": "51"
+    },
+    {
+      "date": "September 26, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Announces $5 Million Private Placement Financing with Eric Sprott",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG) (OTCQX: OCGSF) (DE: MRG) (\" Outcrop Silver\" or the “ Company”) is pleased to announce a non-brokered private placement offering of 22,727,273 units of the Company (the “ Units”) at a price of $0.22 per Unit for aggregate gross proceed",
+      "link": "assets/pdfs/2024/outcrop_silver_and_gold_-_press_release_-_non-brokered.pdf",
+      "pdfUrl": "assets/pdfs/2024/outcrop_silver_and_gold_-_press_release_-_non-brokered.pdf",
+      "tag": "Financing",
+      "id": "52"
+    },
+    {
+      "date": "September 11, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Intercepts 1.3 Metres of 888 Grams per Tonne Silver Equivalent Along the New Aguilar Vein at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to provide an update on the 2024 exploration drilling program at its 100% owned Santa Ana high-grade primary silver project.",
+      "link": "assets/pdfs/2024/nr_2024_drillingupdate_aguilar_jimenez_guadual_ips_en.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr_2024_drillingupdate_aguilar_jimenez_guadual_ips_en.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "53"
+    },
+    {
+      "date": "September 04, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver’s Expanded 2024 Exploration Footprint Leads to Multiple New Targets at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to provide an update on the 2024 Regional Exploration Program at the Santa Ana high grade silver project.",
+      "link": "assets/pdfs/2024/nr_2024_exploration_strategy-final-2-clean.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr_2024_exploration_strategy-final-2-clean.pdf",
+      "tag": "Corporate News",
+      "id": "54"
+    },
+    {
+      "date": "August 28, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Advances Aguilar Discovery: Unveiling Robust Multi-vein System",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce additional high-grade silver intercepts at the Aguilar vein discovery located 5 kilometres south of the existing resource.",
+      "link": "assets/pdfs/2024/2024-08-28-nr-ocg-fr9hs15hos.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-08-28-nr-ocg-fr9hs15hos.pdf",
+      "tag": "Corporate News",
+      "id": "55"
+    },
+    {
+      "date": "July 17, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Intercepts 6.52 Metres of 828 Grams Silver Equivalent per Tonne at the Aguilar Discovery",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce additional drill results at the Aguilar vein discovery located 5 kilometres south of the existing resource along the 30 kilometre vein corridor .",
+      "link": "assets/pdfs/2024/nr_2024_july17_drilling_aguilar_final-2.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr_2024_july17_drilling_aguilar_final-2.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "56"
+    },
+    {
+      "date": "June 25, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Achieves Exceptional Recovery of 96.3% Silver and 98.5% Gold in Updated Metallurgical Testing at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce significant improvements in gold and silver recovery following metallurgical testing at its flagship Santa Ana project.",
+      "link": "assets/pdfs/2024/nr_2024_june_25_gravimetric-flotation_test_work_final.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr_2024_june_25_gravimetric-flotation_test_work_final.pdf",
+      "tag": "Corporate News",
+      "id": "57"
+    },
+    {
+      "date": "June 18, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Drills High-grade Silver at New Aguilar Vein, Underpinning Expansion Strategy at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the results of initial core holes from the Aguilar vein in the central part of the 30 kilometre long vein corridor at the Santa Ana Project.",
+      "link": "assets/pdfs/2024/draft_nr_2024_june18_drilling_aguilar-clean_rev3gh.pdf",
+      "pdfUrl": "assets/pdfs/2024/draft_nr_2024_june18_drilling_aguilar-clean_rev3gh.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "58"
+    },
+    {
+      "date": "April 25, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Invites Shareholders and Investors to Visit Us at Deutsche Goldmesse in Frankfurt",
+      "summary": "Outcrop Silver announces participation in the Deutsche Goldmesse Spring 2024 Conference in Frankfurt, Germany, welcoming shareholders and investors to presentations and meetings.",
+      "link": "assets/pdfs/2024/2024-04-25-dgm-conference-press-release.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-04-25-dgm-conference-press-release.pdf",
+      "tag": "Events & Conferences",
+      "id": "59"
+    },
+    {
+      "date": "April 24, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver to Present at Uranium, Battery and Precious Metals Investor Conference",
+      "summary": "Outcrop Silver (TSXV: OCG, OTCQX: OCGSF, DE: MRG) (“Outcrop Silver”) today announced that Ian Harris, President and CEO, will participate in the Uranium, Battery and Precious Metals Investor Conference on May 1st, 2024.",
+      "link": "assets/pdfs/2024/2024-04-24-outcrop-silver-nr.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-04-24-outcrop-silver-nr.pdf",
+      "tag": "Events & Conferences",
+      "id": "60"
+    },
+    {
+      "date": "April 22, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Announces Breakthrough Gravimetric Concentration Results for Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce breakthrough results from the initial gravimetric concentration test work as part of the program to enhance the already high-recoveries at Santa Ana.",
+      "link": "assets/pdfs/2024/2024-04-22-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-04-22-ocg-nr.pdf",
+      "tag": "Corporate News",
+      "id": "61"
+    },
+    {
+      "date": "April 09, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Commences 2024 Santa Ana Drill Program",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the commencement of our 2024 drilling program at the 100% owned Santa Ana high-grade silver project in Colombia, initiated on April 5th.",
+      "link": "assets/pdfs/2024/2024-04-09-nr-ocg-114h8gggr.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-04-09-nr-ocg-114h8gggr.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "62"
+    },
+    {
+      "date": "March 26, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Grants Options",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) has granted 4,525,000 incentive stock options to employees and Directors at an exercise price of $0.16 expiring on March 26, 2029.",
+      "link": "assets/pdfs/2024/2024-03-26-nr-ocg-yn50shyys.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-03-26-nr-ocg-yn50shyys.pdf",
+      "tag": "Corporate News",
+      "id": "63"
+    },
+    {
+      "date": "March 18, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Announces 2024 Santa Ana Drill Program",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG) (“Outcrop Silver”) is pleased to announce the 2024 drilling program at the 100% owned Santa Ana high- grade silver project in Colombia is expected to commence in April 2024 .",
+      "link": "assets/pdfs/2024/nr-2024-drill-program-march-18-2024-1.pdf",
+      "pdfUrl": "assets/pdfs/2024/nr-2024-drill-program-march-18-2024-1.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "64"
+    },
+    {
+      "date": "March 14, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Announces Closing $3.45 Million Public Offering, Including the Full Exercise of the Over-Allotment Option",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG) (OTCQX: OCGSF) (DE: MRG) (\"Outcrop Silver\" or the “Company”) is pleased to announce that it has closed its previously announced public offering (the “Offering”) of 23,000,000 units of the Company (the \"Units\") at a price of $0.15 per ",
+      "link": "assets/pdfs/2024/outcrop_-_2024_prospectus_supplement_-_closing_news_rel.pdf",
+      "pdfUrl": "assets/pdfs/2024/outcrop_-_2024_prospectus_supplement_-_closing_news_rel.pdf",
+      "tag": "Financing",
+      "id": "65"
+    },
+    {
+      "date": "March 04, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Announces $3 Million Public Offering of Units",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG) (OTCQX: OCGSF) (DE: MRG1) (\" Outcrop Silver\" or the “ Company”) is pleased to announce that it has entered into an agreement with Research Capital Corporation as the sole agent and sole bookrunner(the “Agent”), in connection with a be",
+      "link": "assets/pdfs/2024/240303_press_release_outcrop_prospectus_offering_final.pdf",
+      "pdfUrl": "assets/pdfs/2024/240303_press_release_outcrop_prospectus_offering_final.pdf",
+      "tag": "Financing",
+      "id": "66"
+    },
+    {
+      "date": "February 09, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Announces Marketing Service Agreement",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG) (“Outcrop Silver”) is pleased to announce that the Company has entered into an agreement with Triomphe Holdings Ltd. (dba Capital Analytica) (“Capital Analytica”) for investor relations and communication service",
+      "link": "assets/pdfs/2024/outcrop_silver_announces_marketing_service_agreement.pdf",
+      "pdfUrl": "assets/pdfs/2024/outcrop_silver_announces_marketing_service_agreement.pdf",
+      "tag": "Corporate News",
+      "id": "67"
+    },
+    {
+      "date": "January 24, 2024",
+      "year": "2024",
+      "title": "Outcrop Silver Annual Letter to Shareholders",
+      "summary": "President and CEO reflects on the transformative maiden mineral resource estimate at Santa Ana and outlines corporate milestones for 2024.",
+      "link": "assets/pdfs/2024/2024-01-24-ceo-lts-2.pdf",
+      "pdfUrl": "assets/pdfs/2024/2024-01-24-ceo-lts-2.pdf",
+      "tag": "Corporate News",
+      "id": "68"
+    },
+    {
+      "date": "November 30, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver to Present at the Clean Energy and Precious Metals Virtual Investor Conference",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG) (“Outcrop Silver”) today announced that Ian Harris, President and CEO, will participate in the Clean Energy & Precious Metals Virtual Conference on December 5th, 2023.",
+      "link": "assets/pdfs/2023/2023-11-30-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-11-30-ocg-nr.pdf",
+      "tag": "Events & Conferences",
+      "id": "69"
+    },
+    {
+      "date": "November 21, 2023",
+      "year": "2023",
+      "title": "Outcrop and Zacapa Announce Closing of Amalgamation",
+      "summary": "Outcrop Silver & Gold Corporation (“Outcrop”) (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) and Zacapa Resources Ltd. (“Zacapa”) (TSXV: ZACA, OTCQB: ZACAF, DE: BH0) are pleased to announce that they have completed their previously announced amalgamation (the “Transaction”) pursuant to whic",
+      "link": "assets/pdfs/2023/outcrop-zacapa_joint_news_release_re_completion_of_ama.pdf",
+      "pdfUrl": "assets/pdfs/2023/outcrop-zacapa_joint_news_release_re_completion_of_ama.pdf",
+      "tag": "Corporate News",
+      "id": "70"
+    },
+    {
+      "date": "November 06, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver & Gold Invites You to Join Us at Deutsche Goldmesse Fall 2023 in Frankfurt",
+      "summary": "Outcrop Silver & Gold Corporation announces participation in the Deutsche Goldmesse Fall 2023 Conference on November 24-25 in Frankfurt, Germany.",
+      "link": "assets/pdfs/2023/2023-11-06-nr-ocg.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-11-06-nr-ocg.pdf",
+      "tag": "Events & Conferences",
+      "id": "71"
+    },
+    {
+      "date": "October 30, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver & Gold Announces Participation in 121 Mining Investment Conference in London",
+      "summary": "Outcrop Silver & Gold Corporation announces participation in the 121 Mining Investment Conference in London on November 20-21, 2023.",
+      "link": "assets/pdfs/2023/2023-10-30-nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-10-30-nr.pdf",
+      "tag": "Events & Conferences",
+      "id": "72"
+    },
+    {
+      "date": "October 25, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver & Gold to Present at Precious Metals Summit Zurich",
+      "summary": "Outcrop Silver & Gold Corporation announces that management will present at the Precious Metals Summit Zurich on November 13-14, 2023.",
+      "link": "assets/pdfs/2023/2023-10-25-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-10-25-ocg-nr.pdf",
+      "tag": "Events & Conferences",
+      "id": "73"
+    },
+    {
+      "date": "September 27, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver to Present at Otc Markets Battery & Precious Metals Virtual Conference",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop Silver”) today announced that Ian Harris, President and CEO, will participate in OTC Markets Battery & Precious Metals Virtual Conference on October 3-5, 2023.",
+      "link": "assets/pdfs/2023/2023-09-27-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-09-27-ocg-nr.pdf",
+      "tag": "Events & Conferences",
+      "id": "74"
+    },
+    {
+      "date": "September 06, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Establishes “At-the-Market” Equity Program",
+      "summary": "Outcrop Silver establishes an at-the-market equity program allowing the company to issue and sell up to $7.0 million of common shares from treasury to the public.",
+      "link": "assets/pdfs/2023/2023-09-06-nr-ocg-ltr864_99pdf.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-09-06-nr-ocg-ltr864_99pdf.pdf",
+      "tag": "Corporate News",
+      "id": "75"
+    },
+    {
+      "date": "August 31, 2023",
+      "year": "2023",
+      "title": "Outcrop and Zacapa Enter Into Amalgamation Agreement",
+      "summary": "Outcrop Silver & Gold Corp. (TSXV: OCG, OTCQX: OCGSF, DE: MRG1 ) (“Outcrop”) and Zacapa Resources Ltd. (“Zacapa”) (TSXV: ZACA, OTCQB: ZACAF, DE: BH0) are pleased to announce that they have signed an amalgamation agreement dated August 30, 202 3 (the “Agreement”) pursuant to which",
+      "link": "assets/pdfs/2023/2023-08-31-ocg_nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-08-31-ocg_nr.pdf",
+      "tag": "Corporate News",
+      "id": "76"
+    },
+    {
+      "date": "August 23, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Achieves Outstanding Lock Cycle Flotation Recoveries: 97% Gold, 93% Silver",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop Silver”) is pleased to report outstanding metallurgical follow-up results from the high- grade Santa Ana silver project.",
+      "link": "assets/pdfs/2023/2023-08-23-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-08-23-ocg-nr.pdf",
+      "tag": "Corporate News",
+      "id": "77"
+    },
+    {
+      "date": "July 26, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Announces Marketing Services Agreement",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop Silver”) has been requested by the TSX Venture Exchange to issue a clarification on current promotional activities with Mr.",
+      "link": "assets/pdfs/2023/outcrop_silver_issues_clarification_regarding_agreement.pdf",
+      "pdfUrl": "assets/pdfs/2023/outcrop_silver_issues_clarification_regarding_agreement.pdf",
+      "tag": "Corporate News",
+      "id": "78"
+    },
+    {
+      "date": "July 21, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver to Present at Otc Markets Battery & Precious Metals Virtual Conference",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop Silver”) today announced that Ian Harris, President and CEO, will participate in OTC Markets Battery & Precious Metals Virtual Conference on July 26th and 27th.",
+      "link": "assets/pdfs/2023/2023-07-21-nr-ocg-alh77519io.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-07-21-nr-ocg-alh77519io.pdf",
+      "tag": "Events & Conferences",
+      "id": "79"
+    },
+    {
+      "date": "July 20, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Appoints Ian Harris CEO",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop Silver”) is pleased to announce the appointment of Mr.",
+      "link": "assets/pdfs/2023/2023-07-20-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-07-20-ocg-nr.pdf",
+      "tag": "Management",
+      "id": "80"
+    },
+    {
+      "date": "June 27, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Generates New High-Grade Target and Resumes Drilling at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop Silver”) is pleased to announce a new high-grade vein (La Estrella) at Santa Ana and the resumption of drilling after completing its maiden resource estimation .",
+      "link": "assets/pdfs/2023/2023-06-27_ocg_nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-06-27_ocg_nr.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "81"
+    },
+    {
+      "date": "June 20, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Discovers Three New High-Grade Targets at Santa Ana with Assays Up to 58 Grams per Tonne of Gold and 2,987 Grams per Tonne of Silver",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop Silver”) reports results from its regional exploration and target generation program at its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2023/nr_santa_ana_june_20_2023_revgh-kl-clean.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_santa_ana_june_20_2023_revgh-kl-clean.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "82"
+    },
+    {
+      "date": "June 12, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Files Technical Report for the Santa Ana Maiden Mineral Resource Estimate",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop Silver”) is pleased to announce the filing of a National Instrument 43 -101 Technical Report (“Technical Report”) entitled “Santa Ana Property Mineral Resource Estimate” with an effec tive date of Jun",
+      "link": "assets/pdfs/2023/nr_santa_ana_june_12_2023_ni_43_101_filing_on_mre-final.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_santa_ana_june_12_2023_ni_43_101_filing_on_mre-final.pdf",
+      "tag": "Resource Estimate",
+      "id": "83"
+    },
+    {
+      "date": "May 10, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Announces Closing $4.5 Million Public Offering of Units, with Participation by Eric Sprott",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG) (OTCQX: OCGSF) (DE: MRG1) (\" Outcrop Silver\" or the “ Company”) is pleased to announce that it has closed its previously announced public offering (the “ Offering”) of 18,097,000 units of the Company (the \"Units\") at a price of $0.25 ",
+      "link": "assets/pdfs/2023/outcrop_-_closing_news_release_v8.pdf",
+      "pdfUrl": "assets/pdfs/2023/outcrop_-_closing_news_release_v8.pdf",
+      "tag": "Financing",
+      "id": "84"
+    },
+    {
+      "date": "May 02, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Announces $6 Million Public Offering of Units",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG) (OTCQX: OCGSF) (DE: MRG1) (\" Outcrop Silver\" or the “ Company”) is pleased to announce that it has entered into an agreement with Research Capital Corporation as the lead agent and sole bookrunner, on behalf of a syndicate of agents (",
+      "link": "assets/pdfs/2023/2023-05-02-ocg-nr.pdf",
+      "pdfUrl": "assets/pdfs/2023/2023-05-02-ocg-nr.pdf",
+      "tag": "Financing",
+      "id": "85"
+    },
+    {
+      "date": "April 26, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Announces High Grade Santa Ana Maiden Indicated Resource Estimate",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop Silver”) announces that AMC Consultan ts (AMC) has completed an independent mineral resource estimation of the Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2023/nr-santa-ana-april26-2023-mre.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr-santa-ana-april26-2023-mre.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "86"
+    },
+    {
+      "date": "April 17, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver & Gold Invites You to Join Us at the Deutsche Goldmesse in Frankfurt",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop Silver”) will be participating in the Deutsche Goldmesse, which will take place on May 5th and 6th at The Westin Grand Frankfurt.",
+      "link": "assets/pdfs/2023/outcrop_silver_gold_invites_you_to_join_us_at_the_deutsche_goldmesse_in_frankfurt-1.pdf",
+      "pdfUrl": "assets/pdfs/2023/outcrop_silver_gold_invites_you_to_join_us_at_the_deutsche_goldmesse_in_frankfurt-1.pdf",
+      "tag": "Events & Conferences",
+      "id": "87"
+    },
+    {
+      "date": "April 05, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Reports Exceptional Metallurgical Results - Confirming Recoveries of 93.4% Silver and 96.7% Gold",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop Silver”) is pleased to report excellent updated metallurgical results from the 100% owned high grade Santa Ana silver project in Colombia.",
+      "link": "assets/pdfs/2023/nr_santa_ana_april5_2023_metallurgicaltestsresults-final-907hour.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_santa_ana_april5_2023_metallurgicaltestsresults-final-907hour.pdf",
+      "tag": "Corporate News",
+      "id": "88"
+    },
+    {
+      "date": "March 14, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Intersects 5.89 Metres True Width of 426 Grams Equivalent Silver per Tonne and 2.72 Metres True Width of 445 Grams Equivalent Silver per Tonne Expanding the Megapozo Shoot at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop Silver”) is pleased to announce the results of four additional core holes designed to expand the high-grade in the Megapozo shoot on its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2023/nr_santa_ana_march_14_2023.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_santa_ana_march_14_2023.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "89"
+    },
+    {
+      "date": "February 14, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Intercepts 1.89 Metres of 468 Grams Silver Equivalent and 1.53 Metres of 516 Grams Silver Equivalent Extending Los Naranjos Shoot to 300 Metres Depth",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop”) is pleased to announce the encouraging assays from eleven drill holes with significant results from its delineation drill program at Los Naranjos vein on its 100% owned Santa Ana high-grade silver p",
+      "link": "assets/pdfs/2023/nr_santa_ana_febuary_14_2023.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_santa_ana_febuary_14_2023.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "90"
+    },
+    {
+      "date": "February 09, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver & Gold to Present at OTC CleanTech & Precious Metals Virtual Conference",
+      "summary": "Outcrop Silver & Gold Corporation announces that President and CEO Joe Hebert will participate in the OTC CleanTech & Precious Metals Virtual Conference.",
+      "link": "assets/pdfs/2023/02_06_metals_mining_pr_outcrop-v1_em.pdf",
+      "pdfUrl": "assets/pdfs/2023/02_06_metals_mining_pr_outcrop-v1_em.pdf",
+      "tag": "Events & Conferences",
+      "id": "91"
+    },
+    {
+      "date": "January 30, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Intersects 3.05 Metres True Width of 3,975 Grams Equivalent Silver per Tonne Including 0.63 Metres of 16,690 Grams Equivalent Silver per Tonne at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop Silver”) is pleased to announce exceptional results from drilling designed to test for high-grade continuity at depth within Las Abejas shoot along El Dorado vein system on its 100% owned Santa Ana high-",
+      "link": "assets/pdfs/2023/nr_santa_ana_january_30_2023_1.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_santa_ana_january_30_2023_1.pdf",
+      "tag": "Corporate News",
+      "id": "92"
+    },
+    {
+      "date": "January 27, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Intersects 1.71 Metres True Thickness of 777 Grams Equivalent Silver per Tonne and Expands High-grade Megapozo Shoot at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce the results of two additional core holes drilled in Megapozo designed to connect two areas of high-grade mineralization.",
+      "link": "assets/pdfs/2023/nr_santa_ana_january_27_2023_final-1.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_santa_ana_january_27_2023_final-1.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "93"
+    },
+    {
+      "date": "January 18, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Publishes Annual Letter to Shareholders",
+      "summary": "President and CEO reflects on 2022 achievements at Santa Ana, top performance among TSXV silver stocks, and corporate milestones for the year ahead.",
+      "link": "assets/pdfs/2023/nr_letter_to_shareholders_jan_18_2023-final_1.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_letter_to_shareholders_jan_18_2023-final_1.pdf",
+      "tag": "Corporate News",
+      "id": "94"
+    },
+    {
+      "date": "January 03, 2023",
+      "year": "2023",
+      "title": "Outcrop Silver Generates Additional High-grade Targets Including Up to 6,307 Grams Equivalent Silver per Tonne at the Santa Ana Project.",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to provide an update on its regional exploration and target generation program on its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2023/nr_santa_ana_jan_3_2023.pdf",
+      "pdfUrl": "assets/pdfs/2023/nr_santa_ana_jan_3_2023.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "95"
+    },
+    {
+      "date": "December 29, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Intercepts 0.90 Metres of 767 Grams Equivalent Silver per Tonne in Las Maras and Provides an Update on Resource Estimation",
+      "summary": "Outcrop Silver announces results of two core holes in the Las Maras shoot on its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2022/nr_santa_ana_december_29_2022.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_december_29_2022.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "96"
+    },
+    {
+      "date": "December 07, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver’s Historic Frias Mine at Santa Ana Provides Underground Sample of 10,216 Grams per Tonne Silver Prior to Drill Testing",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to provide an update on its regional exploration and target generation program at its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2022/nr_santa_ana_december_7_2022.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_december_7_2022.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "97"
+    },
+    {
+      "date": "November 30, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver & Gold to Present at Otc Markets Metals and Mining Virtual Conference",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop”) today announced that Joe Hebert, President and CEO, will participate in OTC Markets Metals and Mining Virtual Conference on Wednesday, December 7, 2022.",
+      "link": "assets/pdfs/2022/11_23_metals_mining_pr_outcrop_eem.pdf",
+      "pdfUrl": "assets/pdfs/2022/11_23_metals_mining_pr_outcrop_eem.pdf",
+      "tag": "Events & Conferences",
+      "id": "98"
+    },
+    {
+      "date": "November 22, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Intersects 2.71 Metres True Width of 615 Grams Silver Equivalent per Tonne Expanding Las Maras High-grade at Depth",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce the results of two additional core holes designed to test the continuity at depth of the Las Maras shoot on its 100% owned Santa Ana high-grade silver project in Colombia .",
+      "link": "assets/pdfs/2022/nr_santa_ana_november_22_2022_final.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_november_22_2022_final.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "99"
+    },
+    {
+      "date": "November 03, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Reports Excellent Metallurgical Results and Provides Update on Upcoming Resource Estimation",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop”) is pleased to report excellent results from metallurgical testing from the Santa Ana project and provides an update on work being conducted to publish a maiden compliant resource before the end of 2",
+      "link": "assets/pdfs/2022/nr_santa_ana_november_03_2022-final-1.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_november_03_2022-final-1.pdf",
+      "tag": "Resource Estimate",
+      "id": "100"
+    },
+    {
+      "date": "November 01, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Appoints New Board Member Ana Milena Vásquez",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce the appointment of Ms. Ana Milena Vásquez to the Board of Directors.",
+      "link": "assets/pdfs/2022/nr_outcrop_director_november_1_2022.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_outcrop_director_november_1_2022.pdf",
+      "tag": "Management",
+      "id": "101"
+    },
+    {
+      "date": "October 27, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Intersects 2.4 Metres of 2,032 Grams Silver Equivalent per Tonne and Extends High-grade in Las Maras Shoot to the Deepest on the Santa Ana Project",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop”) is pleased to announce the results of nine core holes designed to test the continuity at depth of the Las Maras shoot on its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2022/nr_santa_ana_october_27_2022-final_clean_version_gh.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_october_27_2022-final_clean_version_gh.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "102"
+    },
+    {
+      "date": "October 05, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Appoints Sunil Sharma as Chief Financial Officer",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce the appointment of Sunil Sharma to the position of Chief Financial Officer as of November 1, 2022.",
+      "link": "assets/pdfs/2022/nr_outcrop_cfo_october_5_2022.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_outcrop_cfo_october_5_2022.pdf",
+      "tag": "Management",
+      "id": "103"
+    },
+    {
+      "date": "September 22, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Closes $3.4 Million Private Placement",
+      "summary": "Outcrop Silver & Gold Corporation completes a non-brokered private placement raising gross proceeds of $3.4 million to advance exploration at Santa Ana.",
+      "link": "assets/pdfs/2022/220922_outcrop_silver_press_release_closing_offering.pdf",
+      "pdfUrl": "assets/pdfs/2022/220922_outcrop_silver_press_release_closing_offering.pdf",
+      "tag": "Financing",
+      "id": "104"
+    },
+    {
+      "date": "September 12, 2022",
+      "year": "2022",
+      "title": "Outcrop Announces $3 Million Private Placement",
+      "summary": "Outcrop Silver announces a non-brokered private placement offering to raise proceeds of $3.0 million for exploration and general working capital.",
+      "link": "assets/pdfs/2022/outcrop_silver_gold_press_release_offering_sept_2022_1.pdf",
+      "pdfUrl": "assets/pdfs/2022/outcrop_silver_gold_press_release_offering_sept_2022_1.pdf",
+      "tag": "Financing",
+      "id": "105"
+    },
+    {
+      "date": "August 23, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Generates New High-grade Targets with Up to 9,738 Grams Silver per Tonne in the Frias - La Ye Trend at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to provide an update on its regional exploration and target generation program at its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2022/nr_santa_ana_august_23_2022-kl.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_august_23_2022-kl.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "106"
+    },
+    {
+      "date": "August 09, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Intercepts 8.97 Metres at 1,651 Grams Equivalent Silver per Tonne in Las Maras",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (\"Outcrop\") is pleased to announce the results of additional core holes which successfully tested Las Maras target at depth on its 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2022/nr_santa_ana_august_9_2022-957pm_time-clean-1.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_august_9_2022-957pm_time-clean-1.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "107"
+    },
+    {
+      "date": "July 27, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Intercepts 6.93 Metres at 2,184 Grams Silver Equivalent per Tonne in Naranjos",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce the results from three additional drill holes within the Naranjos vein on its 100% owned Santa Ana high-grade silver-gold project in Colombia.",
+      "link": "assets/pdfs/2022/nr_santa_ana_july_27_2022_1.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_july_27_2022_1.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "108"
+    },
+    {
+      "date": "July 14, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Intercepts 1.54 Metres at 1,067 Grams Equivalent Silver per Tonne in New Naranjos Shoot Expanding Resource Potential at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce the results from six core holes designed to test the Naranjos structure on its 100% owned Santa Ana high-grades silver project in Colombia.",
+      "link": "assets/pdfs/2022/nr_santa_ana_july_14_2022-final.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_july_14_2022-final.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "109"
+    },
+    {
+      "date": "July 13, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver & Gold to Present at Otc Markets Metals and Mining Virtual Conference",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV: OCG, OTCQX: OCGSF, DE: MRG1) (“Outcrop”) today announced that Joe Hebert, President and CEO, will participate in OTC Markets Metals and Mining Virtual Conference on Wednesday, July 27, 2022.",
+      "link": "assets/pdfs/2022/07_22_metals_mining_pr_outcrop-kl_jh-0711.pdf",
+      "pdfUrl": "assets/pdfs/2022/07_22_metals_mining_pr_outcrop-kl_jh-0711.pdf",
+      "tag": "Events & Conferences",
+      "id": "110"
+    },
+    {
+      "date": "July 05, 2022",
+      "year": "2022",
+      "title": "Outcrop Extends the Aguilar Vein to 4 Kilometres with Historicadit Vein Samples Up to 2,994 Grams Silver Equivalent per Tonne",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1)(“Outcrop”) is pleasedtoprovide anupdate onits regionalexplorationandtargetgenerationprogramatits 100% owned Santa Ana high-grade silver project in Colombia.",
+      "link": "assets/pdfs/2022/nr_santa_ana_july_5_2022-final_docx.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_july_5_2022-final_docx.pdf",
+      "tag": "Corporate News",
+      "id": "111"
+    },
+    {
+      "date": "June 24, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Appoints Kathy Li as Director of Investor Relations",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce the appointment of Kathy Li to the position of Director of Investor Relations.",
+      "link": "assets/pdfs/2022/nr_outcrop_kathy_li_and_options_june_24_2022-final_clean.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_outcrop_kathy_li_and_options_june_24_2022-final_clean.pdf",
+      "tag": "Management",
+      "id": "112"
+    },
+    {
+      "date": "June 13, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Intercepts 1.85 Metres of 7,609 Grams Silver Equivalent and 4.69 Metres of 909 Grams Silver Equivalent in One Kilometre Step Out at Santa Ana",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce additional results from Las Maras target including drill intercepts of 1.85 metres of 7,609 grams silver equivalent per tonne including 0.54 metres of 11,927 grams equivalent sil",
+      "link": "assets/pdfs/2022/nr_santa_ana_june_13_2022.pdf",
+      "pdfUrl": "assets/pdfs/2022/nr_santa_ana_june_13_2022.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "113"
+    },
+    {
+      "date": "June 02, 2022",
+      "year": "2022",
+      "title": "Outcrop Silver Intercepts 3 Metres of 774 Grams Silver Equivalent in New Shoot and Observes Native Silver in Core from Two New Targets with Pending Assays",
+      "summary": "Outcrop Silver & Gold Corporation (TSXV:OCG, OTCQX:OCGSF, DE:MRG1) (“Outcrop”) is pleased to announce drill intercepts in Las Maras target including 3 metres of 774 grams silver equivalent per tonne.",
+      "link": "assets/pdfs/2022/2022-06-02-nr-ocg-chk01orlitsf.pdf",
+      "pdfUrl": "assets/pdfs/2022/2022-06-02-nr-ocg-chk01orlitsf.pdf",
+      "tag": "Exploration & Drilling",
+      "id": "114"
+    }
+  ]
 }
