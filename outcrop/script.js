@@ -541,8 +541,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p id="news-modal-summary">News summary details...</p>
                 </div>
                 <div class="news-modal-actions" id="news-modal-actions">
-                    <a id="news-modal-official-btn" href="#" target="_blank" rel="noopener noreferrer" class="btn-news-action">OFFICIAL SITE <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    <a id="news-modal-pdf-btn" href="#" target="_blank" rel="noopener noreferrer" class="nav-btn-outline" style="display:none;"><i class="fa-solid fa-file-pdf"></i> VIEW PDF</a>
+                    <a id="news-modal-pdf-btn" href="#" target="_blank" rel="noopener noreferrer" class="nav-btn-outline" style="display:none; text-decoration:none;"><i class="fa-solid fa-file-pdf"></i> VIEW FULL PRESS RELEASE (PDF)</a>
                 </div>
             </div>
         `;
@@ -569,7 +568,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const date = document.getElementById('news-modal-date');
         const title = document.getElementById('news-modal-title');
         const body = document.getElementById('news-modal-body');
-        const officialBtn = document.getElementById('news-modal-official-btn');
         const pdfBtn = document.getElementById('news-modal-pdf-btn');
 
         if (badge) badge.textContent = item.category || 'PRESS RELEASE';
@@ -579,18 +577,10 @@ document.addEventListener('DOMContentLoaded', () => {
             body.innerHTML = `<p style="font-size:1.05rem; line-height:1.7; color: var(--text-primary); margin-bottom: 20px;">${item.summary || ''}</p>`;
         }
 
-        if (officialBtn) {
-            if (item.readUrl) {
-                officialBtn.href = item.readUrl;
-                officialBtn.style.display = 'inline-flex';
-            } else {
-                officialBtn.style.display = 'none';
-            }
-        }
-
+        const pdfTarget = item.pdfUrl || item.link;
         if (pdfBtn) {
-            if (item.pdfUrl) {
-                pdfBtn.href = item.pdfUrl;
+            if (pdfTarget) {
+                pdfBtn.href = pdfTarget;
                 pdfBtn.style.display = 'inline-flex';
             } else {
                 pdfBtn.style.display = 'none';

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Outcrop Silver Corp.</title>
+    <meta name="description" content="Privacy Policy of Outcrop Silver & Gold Corporation outlining how information is collected, used, and safeguarded.">
+    
+    <!-- Google Fonts: Figtree for Headings, Inter for Body, JetBrains Mono for Tickers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons for UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css?v=304.0">
+</head>
+<body>
+
+    <!-- Apple-style hover backdrop blur overlay -->
+    <div class="page-backdrop"></div>
+
+    <!-- Header & Navigation Group -->
+    <div class="top-header-group">
+        <!-- Live Ticker Bar (Stocks & Silver Price) -->
+        <div class="ticker-bar">
+            <div class="ticker-wrapper">
+                <div class="ticker-stocks font-mono" id="live-ticker">
+                    <span><strong>TSX</strong>: OCG <span id="tsx-price">...</span> <span id="tsx-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>OTCQX</strong>: OCGSF <span id="otcqx-price">...</span> <span id="otcqx-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>FSE</strong>: MRG <span id="fse-price">...</span> <span id="fse-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>Silver Spot</strong>: <span id="silver-price">...</span> <span id="silver-change" class="stock-change"></span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Header Navigation -->
+        <header class="nav-header">
+            <nav class="main-nav">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo.svg" alt="Outcrop Silver" class="logo-img">
+                </a>
+                
+                <div class="nav-links-left">
+                    <a href="index.html" class="nav-link">Home</a>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="corporate.html" class="nav-link">Corporate <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="corporate.html#overview">Overview</a>
+                            <a href="corporate.html#management">Management & Directors</a>
+                            <a href="corporate.html#governance">Governance</a>
+                            <a href="corporate.html#disclaimer">Disclaimer</a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="projects.html" class="nav-link">Projects <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="santa-ana.html">Santa Ana (Flagship)</a>
+                            <a href="mallama.html">Mallama Project</a>
+                            <a href="oribella.html">Oribella Project</a>
+                            <a href="argelia.html">Argelia Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="investors.html" class="nav-link">Investors <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="investors.html#stock-info">Investors</a>
+                            <a href="investors.html#financials">Financial Statements</a>
+                            <a href="investors.html#presentations">Presentations</a>
+                            <a href="investors.html#videos">Videos</a>
+                            <a href="investors.html#events">Events</a>
+                        </div>
+                    </div>
+
+                    <a href="index.html#esg-section" class="nav-link">ESG</a>
+                </div>
+
+                <div class="nav-links-right">
+                    <a href="investors.html#presentations" target="_blank" class="nav-btn-outline"><i class="fa-solid fa-file-pdf"></i> View Presentation</a>
+                    <a href="index.html#newsletter-section" class="nav-btn-outline"><i class="fa-regular fa-bell"></i> Get Updates</a>
+                    <a href="news.html" class="nav-btn-solid">News</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-toggle" id="btn-mobile-menu" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
+        
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobile-menu">
+            <a href="index.html" class="mobile-link">Home</a>
+            <a href="corporate.html" class="mobile-link">Corporate</a>
+            <a href="santa-ana.html" class="mobile-link">Santa Ana Project</a>
+            <a href="investors.html" class="mobile-link">Investors</a>
+            <a href="index.html#esg-section" class="mobile-link">ESG</a>
+            <a href="news.html" class="mobile-link">News</a>
+            <a href="investors.html#presentations" target="_blank" class="mobile-link"><i class="fa-solid fa-file-pdf"></i> Presentation</a>
+        </div>
+    </div>
+
+    <!-- Internal Hero Banner -->
+    <section class="internal-hero" style="background-image: url('assets/hero_bg_corporate.jpg');">
+        <div class="internal-hero-overlay"></div>
+        <div class="internal-hero-content">
+            <h1 class="internal-title">Privacy Policy</h1>
+            <p class="internal-subtitle">Commitment to Data Protection & Confidentiality</p>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <section class="internal-content-section">
+        <div class="container-main" style="max-width: 900px; padding: 40px 20px; line-height: 1.8; color: var(--text-secondary);">
+            
+            <h2 style="font-family: 'Figtree', sans-serif; font-weight: 800; color: var(--text-primary); margin-bottom: 20px; font-size: 1.8rem;">1. Introduction</h2>
+            <p style="margin-bottom: 25px;">
+                Outcrop Silver & Gold Corporation ("Outcrop Silver", "the Company", "we", "us", or "our") is committed to respecting and protecting the privacy of our website visitors, investors, and stakeholders. This Privacy Policy explains how we collect, use, disclose, and safeguard personal information obtained through our website.
+            </p>
+
+            <h2 style="font-family: 'Figtree', sans-serif; font-weight: 800; color: var(--text-primary); margin-bottom: 20px; font-size: 1.8rem;">2. Information We Collect</h2>
+            <p style="margin-bottom: 15px;">We may collect personal information that you voluntarily provide to us when you:</p>
+            <ul style="margin-bottom: 25px; padding-left: 20px;">
+                <li>Subscribe to our corporate newsletter, news releases, or investor email alerts.</li>
+                <li>Submit inquiries via our contact forms or email addresses.</li>
+                <li>Request corporate presentations, financial reports, or marketing materials.</li>
+            </ul>
+            <p style="margin-bottom: 25px;">
+                This information may include your name, email address, phone number, company name, and any other details you choose to provide. In addition, our web servers automatically collect standard technical data, such as your IP address, browser type, operating system, and pages visited, to improve site performance and security.
+            </p>
+
+            <h2 style="font-family: 'Figtree', sans-serif; font-weight: 800; color: var(--text-primary); margin-bottom: 20px; font-size: 1.8rem;">3. Use of Information</h2>
+            <p style="margin-bottom: 15px;">The information collected is used strictly for legitimate business and corporate purposes, including:</p>
+            <ul style="margin-bottom: 25px; padding-left: 20px;">
+                <li>Distributing news releases, exploration updates, and corporate announcements.</li>
+                <li>Responding to inquiries, comments, or requests from shareholders and the public.</li>
+                <li>Analyzing website traffic and usage trends to enhance user experience and site navigation.</li>
+                <li>Fulfilling legal, regulatory, and compliance requirements applicable to publicly listed issuers.</li>
+            </ul>
+
+            <h2 style="font-family: 'Figtree', sans-serif; font-weight: 800; color: var(--text-primary); margin-bottom: 20px; font-size: 1.8rem;">4. Disclosure to Third Parties</h2>
+            <p style="margin-bottom: 25px;">
+                Outcrop Silver does not sell, rent, trade, or otherwise transfer your personal information to third parties for commercial or marketing purposes. We may share information with trusted third-party service providers (such as email delivery platforms and website hosting partners) solely to the extent necessary to deliver services on our behalf, under strict confidentiality obligations.
+            </p>
+
+            <h2 style="font-family: 'Figtree', sans-serif; font-weight: 800; color: var(--text-primary); margin-bottom: 20px; font-size: 1.8rem;">5. Cookies and Analytics</h2>
+            <p style="margin-bottom: 25px;">
+                Our website may use cookies and similar technologies to facilitate website navigation, personalize your experience, and compile aggregate statistical data. You may modify your browser settings to decline cookies or to notify you when a cookie is placed.
+            </p>
+
+            <h2 style="font-family: 'Figtree', sans-serif; font-weight: 800; color: var(--text-primary); margin-bottom: 20px; font-size: 1.8rem;">6. Data Security</h2>
+            <p style="margin-bottom: 25px;">
+                We implement industry-standard physical, electronic, and managerial safeguards to protect personal information against unauthorized access, disclosure, alteration, or destruction.
+            </p>
+
+            <h2 style="font-family: 'Figtree', sans-serif; font-weight: 800; color: var(--text-primary); margin-bottom: 20px; font-size: 1.8rem;">7. Unsubscribe and Contact</h2>
+            <p style="margin-bottom: 25px;">
+                You may unsubscribe from our email distribution lists at any time by clicking the "unsubscribe" link provided at the bottom of our emails or by contacting our corporate office directly.
+            </p>
+            <div style="background: #f8fafc; border: 1px solid var(--border-subtle); padding: 24px; border-radius: 4px; margin-top: 30px;">
+                <h4 style="font-family: 'Figtree', sans-serif; font-weight: 800; color: var(--text-primary); margin-bottom: 10px;">Outcrop Silver & Gold Corporation</h4>
+                <p style="margin-bottom: 5px;"><i class="fa-solid fa-location-dot" style="margin-right: 8px; color: var(--brand-primary);"></i> Suite 1605 – 777 Dunsmuir St, Vancouver, BC, Canada V7Y 1E4</p>
+                <p style="margin-bottom: 5px;"><i class="fa-solid fa-phone" style="margin-right: 8px; color: var(--brand-primary);"></i> +1 (604) 609-6110</p>
+                <p style="margin-bottom: 0;"><i class="fa-solid fa-envelope" style="margin-right: 8px; color: var(--brand-primary);"></i> <a href="mailto:info@outcropsilver.com" style="color: var(--brand-primary); font-weight: 600;">info@outcropsilver.com</a></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Master Component -->
+    <footer class="main-footer">
+        <div class="footer-grid container-main">
+            <!-- Column 1: Identity -->
+            <div class="footer-column brand-col">
+                <a href="index.html" class="footer-logo">
+                    <img src="assets/logo.svg" alt="Outcrop Silver" class="footer-logo-img">
+                </a>
+                <p class="footer-tagline">
+                    Advancing high-grade silver and gold discoveries at the 100% owned Santa Ana project in Colombia.
+                </p>
+                <div class="footer-social-icons">
+                    <a href="https://twitter.com/OutcropSilver" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/outcrop-silver-gold/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/@outcropsilvergold" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <!-- Column 2: Quick Links -->
+            <div class="footer-column links-col">
+                <h4 class="footer-title">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="corporate.html">Corporate Overview</a></li>
+                    <li><a href="santa-ana.html">Santa Ana Project</a></li>
+                    <li><a href="news.html">Latest News</a></li>
+                    <li><a href="investors.html">Investors</a></li>
+                    <li><a href="index.html#esg-section">ESG & Reforestation</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Secure Contact Info -->
+            <div class="footer-column contact-col">
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-contact-details">
+                    <li><i class="fa-solid fa-phone"></i> +1 (604) 609-6110</li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@outcropsilver.com">info@outcropsilver.com</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i> Suite 1605 – 777 Dunsmuir St,<br>Vancouver, PO Box 10162, Canada V7Y 1E4</li>
+                </ul>
+            </div>
+            
+            <!-- Column 4: Newsletter Form -->
+            <div class="footer-column signup-col">
+                <h4 class="footer-title">Newsletter Sign-Up</h4>
+                <p class="newsletter-sub">Get direct email alerts with our latest drilling results and company updates.</p>
+                <form class="footer-signup-form" action="https://outcropgoldcorp.us20.list-manage.com/subscribe/post?u=8d2ee82d96b592c11443ded47&amp;id=ead3eb597a" method="post" target="_blank">
+                    <input type="email" name="EMAIL" placeholder="Your Email Address" required class="signup-input">
+                    <button type="submit" class="signup-btn" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Bottom copyright bar -->
+        <div class="footer-bottom-bar">
+            <div class="footer-bottom-container">
+                <div class="copyright-text">
+                    © 2026 Outcrop Silver & Gold Corporation. All Rights Reserved.
+                </div>
+                <div class="footer-legal-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="corporate.html#disclaimer">Legal Disclaimer</a>
+                    <a href="https://adnetinc.com/" target="_blank" rel="noopener">Website by Adnet</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="btn-back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Script connection -->
+    <script src="script.js?v=300.0"></script>
+</body>
+</html>
