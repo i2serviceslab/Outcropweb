@@ -1007,21 +1007,22 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
             'Accept-Ranges': 'bytes' // Crucial for large PDFs and Videos
         };
 
-        // Cache Headers: HTML is revalidated to ensure fresh updates;
-        // Static assets (images, fonts, scripts, styles, video) are cached for 1 day with stale-while-revalidate
-        if (extname === '.html' || !extname) {
-            headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0';
-            headers['Pragma'] = 'no-cache';
-            headers['Expires'] = '0';
+        // High-Performance Caching Strategy
+        const isStaticAsset = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.woff2', '.woff', '.ttf', '.pdf', '.css', '.js', '.mp4', '.json', '.webp', '.webm'].includes(extname);
+        if (isStaticAsset) {
+            headers['Cache-Control'] = 'public, max-age=31536000, immutable'; // 1 Year Cache for Static Assets
+        } else if (extname === '.html') {
+            // HTML pages revalidate with ETag to ensure fresh updates without purging browser asset cache
+            headers['Cache-Control'] = 'no-cache, must-revalidate';
         } else {
-            headers['Cache-Control'] = 'public, max-age=86400, stale-while-revalidate=604800';
-            headers['ETag'] = `"${stats.size}-${stats.mtime.getTime()}"`;
+            headers['Cache-Control'] = 'no-cache';
+        }
 
-            // 304 Not Modified support
-            if (req.headers['if-none-match'] === headers['ETag']) {
-                res.writeHead(304, headers);
-                return res.end();
-            }
+        // Universal ETag & 304 Not Modified Support
+        headers['ETag'] = `"${stats.size.toString(16)}-${stats.mtime.getTime().toString(16)}"`;
+        if (req.headers['if-none-match'] === headers['ETag']) {
+            res.writeHead(304, headers);
+            return res.end();
         }
 
         // Handle Range Requests for large PDFs and Videos

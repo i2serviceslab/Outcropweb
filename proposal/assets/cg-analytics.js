@@ -43,12 +43,15 @@
             return;
         }
         try {
-            const res = await fetch('https://ipapi.co/json/');
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 2000);
+            const res = await fetch('https://ipapi.co/json/', { signal: controller.signal });
+            clearTimeout(timeoutId);
             const json = await res.json();
             geoData = { country: json.country_name, city: json.city, ip: json.ip };
             sessionStorage.setItem('cg_geo_data', JSON.stringify(geoData));
         } catch (e) {
-            // Silently fallback if adblocker blocks it
+            // Silently fallback if adblocker or timeout
         }
     }
     fetchGeoIP(); // Run non-blocking
