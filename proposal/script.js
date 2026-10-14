@@ -49,6 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const cleanPath = path.toLowerCase().replace(/\/$/, '').split('/').pop().replace('.html', '');
         const pageName = (cleanPath === '' || cleanPath === 'index' || cleanPath === 'home') ? 'home' : cleanPath;
 
+        if (pageName === 'home' && section.querySelector('.hero-video-wrapper')) {
+            // Already statically rendered in index.html, avoid destroying DOM & FOUC
+            return;
+        }
+
         fetch('data/site.json')
             .then(res => res.json())
             .then(data => {

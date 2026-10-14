@@ -1059,13 +1059,15 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
             'Accept-Ranges': 'bytes' // Crucial for large PDFs and Videos
         };
 
-        // Aggressive Caching for Assets (Images, Fonts, JS, CSS, PDFs)
+        // High-Performance Caching Strategy
         if (['.png', '.jpg', '.jpeg', '.gif', '.svg', '.woff2', '.woff', '.ttf', '.pdf', '.css', '.js', '.mp4', '.json', '.webp', '.webm'].includes(extname)) {
-            headers['Cache-Control'] = 'public, max-age=31536000, immutable'; // 1 Year Cache
+            headers['Cache-Control'] = 'public, max-age=31536000, immutable'; // 1 Year Cache for Static Assets
+        } else if (extname === '.html') {
+            // HTML pages revalidate with ETag to ensure fresh updates without purging browser asset cache
+            headers['Cache-Control'] = 'no-cache, must-revalidate';
+            headers['ETag'] = `"${stats.mtimeMs.toString(16)}-${stats.size.toString(16)}"`;
         } else {
-            headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0';
-            headers['Pragma'] = 'no-cache';
-            headers['Clear-Site-Data'] = '\"cache\"';
+            headers['Cache-Control'] = 'no-cache';
         }
 
         // Handle Range Requests for large PDFs and Videos
