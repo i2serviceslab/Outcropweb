@@ -531,7 +531,8 @@ if (req.url === '/api/brevo/campaign' && req.method === 'POST') {
                 const brevoUrl = 'https://api.brevo.com/v3/contacts';
                 const payload = {
                     email: email,
-                    updateEnabled: true
+                    updateEnabled: true,
+                    listIds: [3]
                 };
                 
                 const attributes = {};
