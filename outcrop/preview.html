@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Cache-Busting Meta Tags -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outcrop Silver Corp. | High-Grade Primary Silver in Colombia</title>
+    <meta name="description" content="Outcrop Silver is rapidly advancing the Santa Ana high-grade silver deposit in Colombia. Explore our resource metrics, veins, and ESG initiatives.">
+    
+    <!-- Google Fonts: Figtree for Headings, Inter for Body, JetBrains Mono for Tickers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons for UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css?v=20261008_v1">
+</head>
+<body>
+
+    <!-- Apple-style hover backdrop blur overlay -->
+    <div class="page-backdrop"></div>
+
+    <!-- Header & Navigation Group -->
+    <div class="top-header-group">
+        <!-- Live Ticker Bar (Stocks & Silver Price) -->
+        <div class="ticker-bar">
+            <div class="ticker-wrapper">
+                
+                <div class="ticker-stocks font-mono" id="live-ticker">
+                    <span><strong>TSX</strong>: OCG <span id="tsx-price">...</span> <span id="tsx-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>OTCQX</strong>: OCGSF <span id="otcqx-price">...</span> <span id="otcqx-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>FSE</strong>: MRG <span id="fse-price">...</span> <span id="fse-change" class="stock-change"></span></span>
+                    <span class="ticker-divider">|</span>
+                    <span><strong>Silver Spot</strong>: <span id="silver-price">...</span> <span id="silver-change" class="stock-change"></span></span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Sticky Header Navigation -->
+        <header class="nav-header">
+            <nav class="main-nav">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo.svg" alt="Outcrop Silver" class="logo-img">
+                </a>
+                
+                <div class="nav-links-left">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="corporate.html" class="nav-link">Corporate <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="corporate.html#overview">Overview</a>
+                            <a href="corporate.html#management">Management & Directors</a>
+                            <a href="corporate.html#governance">Governance</a>
+                            <a href="corporate.html#disclaimer">Disclaimer</a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="projects.html" class="nav-link">Projects <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="santa-ana.html">Santa Ana (Flagship)</a>
+                            <a href="mallama.html">Mallama Project</a>
+                            <a href="oribella.html">Oribella Project</a>
+                            <a href="argelia.html">Argelia Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item-dropdown">
+                        <a href="investors.html" class="nav-link">Investors <i class="fa-solid fa-chevron-down dropdown-caret"></i></a>
+                        <div class=dropdown-menu>
+                            <a href=investors.html#stock-info>Investors</a>
+                            <a href=investors.html#financials>Financial Statements</a>
+                            <a href=investors.html#presentations>Presentations</a>
+                            <a href=investors.html#videos>Videos</a>
+                            <a href=investors.html#events>Events</a>
+                        </div>
+                    </div>
+
+                    <a href="esg.html" class="nav-link">ESG</a>
+                </div>
+
+                <div class="nav-links-right">
+                    <a href="https://outcropsilver.com/site/assets/files/6346/corporate_presentation_-_outcropsilver_-_august_2026_-_digital_new_3.pdf" target="_blank" class="nav-btn-outline"><i class="fa-solid fa-file-pdf"></i> View Presentation</a>
+                    <a href="index.html#newsletter-section" class="nav-btn-outline"><i class="fa-regular fa-bell"></i> Get Updates</a>
+                    <a href="news.html" class="nav-btn-solid">News</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-toggle" id="btn-mobile-menu" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobile-menu">
+            <a href="index.html" class="mobile-link active">Home</a>
+            <a href="corporate.html" class="mobile-link">Corporate</a>
+            <a href="santa-ana.html" class="mobile-link">Santa Ana Project</a>
+            <a href="investors.html" class="mobile-link">Investors</a>
+            <a href="esg.html" class="mobile-link">ESG</a>
+            <a href="news.html" class="mobile-link">News</a>
+            <a href="https://outcropsilver.com/site/assets/files/6346/corporate_presentation_-_outcropsilver_-_august_2026_-_digital_new_3.pdf" target="_blank" class="mobile-link"><i class="fa-solid fa-file-pdf"></i> Presentation</a>
+        </div>
+    </div>
+
+    <!-- Hero / Cinematic Video Banner Section -->
+    <section class="hero-video-section">
+        <div class="hero-video-wrapper">
+            <!-- Background Video Loop -->
+            <video autoplay loop muted playsinline preload="metadata" poster="assets/hero-video-poster.jpg" class="hero-video-bg">
+                <source src="assets/hero-video.mp4" type="video/mp4">
+            </video>
+            <!-- Hero Gradient Text Overlay -->
+            <div class="hero-video-overlay">
+                <div class="hero-text-container">
+                    <h2 class="hero-title">High-Grade Primary Silver</h2>
+                    <p class="hero-subtitle">in Colombia</p>
+                    <p class="hero-tagline">Grade Within Reach</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Hub Section -->
+    <section class="news-hub-section" id="news-hub">
+        <div class="section-container">
+            <div class="news-hub-header">
+                <h2 class="section-title">Latest News</h2>
+                <div class="section-subtitle-line"></div>
+            </div>
+            
+            <div class="news-hub-grid" id="home-latest-news-grid">
+                <!-- News Card 1 -->
+                <div class="news-hub-card">
+                    <div class="card-meta">
+                        <div class="card-brand-row">
+                            <span class="card-badge"><i class="fa-solid fa-hashtag"></i> Mineral Resource</span>
+                            <span class="card-date">September 14, 2026</span>
+                        </div>
+                        <h3 class="card-news-title">Outcrop Silver Announces Updated Mineral Resource Estimate for the Santa Ana Primary Silver Project</h3>
+                        <div class="card-brand-line"></div>
+                    </div>
+                    <p class="news-card-body">Indicated resources contain 29.9 Moz AgEq at 519 g/t AgEq and Inferred resources contain 27.9 Moz AgEq at 369 g/t AgEq, confirming high grades across 13 vein systems.</p>
+                    <a href="assets/pdfs/2026/20260914_nr_updated_mineral_resource_estimate_santa_ana.pdf" target="_blank" class="btn-news-action">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <!-- News Card 2 -->
+                <div class="news-hub-card">
+                    <div class="card-meta">
+                        <div class="card-brand-row">
+                            <span class="card-badge"><i class="fa-solid fa-hashtag"></i> Exploration</span>
+                            <span class="card-date">August 5, 2026</span>
+                        </div>
+                        <h3 class="card-news-title">Outcrop Silver Reports High-Grade Drill Results from Aguilar and Morena Targets</h3>
+                        <div class="card-brand-line"></div>
+                    </div>
+                    <p class="news-card-body">Assay results from exploration drilling at Aguilar and Morena targets continue to expand high-grade silver mineralized shoots within the flagship Santa Ana project.</p>
+                    <a href="assets/pdfs/2026/20260805_nr_dh_results_-_aguilar_morena_final.pdf" target="_blank" class="btn-news-action">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                
+                <!-- News Card 3 -->
+                <div class="news-hub-card">
+                    <div class="card-meta">
+                        <div class="card-brand-row">
+                            <span class="card-badge"><i class="fa-solid fa-hashtag"></i> Exploration</span>
+                            <span class="card-date">June 3, 2026</span>
+                        </div>
+                        <h3 class="card-news-title">Outcrop Expands Aguilar Vein System with New High-Grade Silver Intercepts</h3>
+                        <div class="card-brand-line"></div>
+                    </div>
+                    <p class="news-card-body">Drilling results show continued expansion of high-grade mineralization along the Aguilar vein system, reinforcing growth potential in our flagship asset.</p>
+                    <a href="assets/pdfs/2026/260603-outcrop-news-release-aguilar-drilling-final.pdf" target="_blank" class="btn-news-action">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Santa Ana Mineral Resource Estimate Infographic (Modular and updatable) -->
+    <section class="resource-estimate-section" id="resource-estimate">
+        <div class="section-container">
+            <div class="resource-section-header">
+                <span class="header-pretitle">Santa Ana Project</span>
+                <h2 class="section-title">Mineral Resource Estimate</h2>
+                <p class="header-desc">September 2026 Updated NI 43-101 Estimate (APEX Geoscience Ltd.) - see <a href="assets/pdfs/2026/20260914_nr_updated_mineral_resource_estimate_santa_ana.pdf" target="_blank" style="color: var(--brand-primary); text-decoration: underline; font-weight: 700;">news release dated September 14, 2026 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.8em;"></i></a></p>
+            </div>
+
+            <!-- Infographic Cards Row - Indicated & Inferred Categories -->
+            <div class="resource-category-heading" style="text-align: center; margin-bottom: 16px;">
+                <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--brand-primary); text-transform: uppercase; letter-spacing: 0.1em; margin: 0;">Indicated Category</h3>
+            </div>
+            <div class="resource-infographic-grid" style="margin-bottom: 32px;">
+                <!-- Tonnage Card -->
+                <div class="resource-info-card">
+                    <div class="info-card-icon"><i class="fa-solid fa-weight-hanging"></i></div>
+                    <div class="info-card-value">1.79 Mt</div>
+                    <div class="info-card-unit">Tonnes</div>
+                </div>
+
+                <!-- Grade Card (Balance Scale) -->
+                <div class="resource-info-card highlighted">
+                    <div class="info-card-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="info-card-value">518.7 g/t</div>
+                    <div class="info-card-unit">AgEq (376.4 g/t Ag & 1.80 g/t Au)</div>
+                </div>
+
+                <!-- Contained Ounces Card (Stack of Dore Bars) -->
+                <div class="resource-info-card">
+                    <div class="info-card-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+                    <div class="info-card-value">29.9 Moz</div>
+                    <div class="info-card-unit">AgEq</div>
+                </div>
+            </div>
+
+            <div class="resource-category-heading" style="text-align: center; margin-bottom: 16px;">
+                <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em; margin: 0;">Inferred Category</h3>
+            </div>
+            <div class="resource-infographic-grid" style="margin-bottom: 48px;">
+                <!-- Tonnage Card -->
+                <div class="resource-info-card">
+                    <div class="info-card-icon"><i class="fa-solid fa-weight-hanging"></i></div>
+                    <div class="info-card-value">2.35 Mt</div>
+                    <div class="info-card-unit">Tonnes</div>
+                </div>
+
+                <!-- Grade Card -->
+                <div class="resource-info-card highlighted">
+                    <div class="info-card-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="info-card-value">368.5 g/t</div>
+                    <div class="info-card-unit">AgEq (266.4 g/t Ag & 1.29 g/t Au)</div>
+                </div>
+
+                <!-- Contained Ounces Card -->
+                <div class="resource-info-card">
+                    <div class="info-card-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    <div class="info-card-value">27.9 Moz</div>
+                    <div class="info-card-unit">AgEq</div>
+                </div>
+            </div>
+
+            <!-- Detailed Table Area (Indicated vs Inferred) -->
+            <div class="resource-details-wrapper">
+                <table class="resource-table">
+                    <thead>
+                        <tr>
+                            <th>Resource Category</th>
+                            <th>Tonnes (Mt)</th>
+                            <th>AgEq Grade (g/t)</th>
+                            <th>Silver Grade (g/t Ag)</th>
+                            <th>Gold Grade (g/t Au)</th>
+                            <th>Contained AgEq (Moz)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Indicated</strong></td>
+                            <td>1.79</td>
+                            <td>518.7</td>
+                            <td>376.4</td>
+                            <td>1.80</td>
+                            <td><strong>29.9</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Inferred</strong></td>
+                            <td>2.35</td>
+                            <td>368.5</td>
+                            <td>266.4</td>
+                            <td>1.29</td>
+                            <td><strong>27.9</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="resource-footnote">
+                    * Based on a 158 g/t AgEq cut-off grade. Silver-equivalent (AgEq) was calculated using metal prices of US$25/oz Ag, US$1,800/oz Au, 93% Ag recovery, and 96% Au recovery.
+                </div>
+            </div>
+
+            <!-- Project Metrics Quick Badges -->
+            <div class="project-badges-row">
+                <div class="project-badge">
+                    <div class="badge-icon"><img src="assets/icono1.svg" alt="Drilled to Date"></div>
+                    <span class="badge-num">&gt;130,000 m</span>
+                    <span class="badge-lbl">Drilled to Date</span>
+                </div>
+                <div class="project-badge">
+                    <div class="badge-icon"><img src="assets/icono2.svg" alt="Project Ownership"></div>
+                    <span class="badge-num">100%</span>
+                    <span class="badge-lbl">Project Ownership</span>
+                </div>
+                <div class="project-badge">
+                    <div class="badge-icon"><img src="assets/icono3.svg" alt="Vein Field Strike Length"></div>
+                    <span class="badge-num">17 KM</span>
+                    <span class="badge-lbl">VEIN FIELD STRIKE LENGTH</span>
+                </div>
+                <div class="project-badge">
+                    <div class="badge-icon"><img src="assets/icono4.svg" alt="Resource Growth"></div>
+                    <span class="badge-num">Resource Growth</span>
+                    <span class="badge-lbl">Stage (Expanding)</span>
+                </div>
+                <div class="project-badge">
+                    <div class="badge-icon"><img src="assets/icono5.svg" alt="PEA Pending"></div>
+                    <span class="badge-num">PEA pending</span>
+                    <span class="badge-lbl">Studies in Progress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Santa Ana's Advantages & Location Map Section -->
+    <section class="advantages-map-section">
+        <div class="section-container">
+            <div class="advantages-layout">
+                
+                <!-- Left: Text & Advantages Card Grid -->
+                <div class="advantages-info-col">
+                    <h2 class="section-title text-left">Santa Ana Advantages</h2>
+                    <p class="advantages-intro">Santa Ana is a true primary silver project with strategic advantages that are expected to facilitate faster permitting and development than is possible for most mining projects</p>
+                    
+                    <div class="benefit-cards-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fa-solid fa-gem"></i></div>
+                            <div class="benefit-text">
+                                 <p><strong>TRUE PRIMARY SILVER PROJECT</strong> - with 73% of indicated AgEq resources being from silver, this is a true primary silver project with great scarcity value.</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <div class="benefit-text">
+                                 <p><strong>HIGH GRADE RESOURCES</strong> - allows a smaller mining operation and plant to produce substantial quantities of silver and gold.</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fa-solid fa-mountain"></i></div>
+                            <div class="benefit-text">
+                                 <p><strong>VEINS AT SURFACE</strong> - mining can be sequenced so that higher grade zones are targeted early in the mine plan. Newly discovered high-grade veins can be incorporated into mine plans relatively easily.</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fa-solid fa-road"></i></div>
+                            <div class="benefit-text">
+                                 <p><strong>EXCELLENT INFRASTRUCTURE</strong> - road access with power, water, labor, and services available should reduce capital and operating costs, as well as accelerate time to production.</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fa-solid fa-flask"></i></div>
+                            <div class="benefit-text">
+                                <p><strong>SIMPLE METALLURGY</strong> - initial testing suggests high silver and gold recoveries using simple gravity and flotation methods, without the need for cyanide, resulting in a high value precious metals concentrate.</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fa-solid fa-file-contract"></i></div>
+                            <div class="benefit-text">
+                                <p><strong>STREAMLINED PERMITTING</strong> - the small mining footprint resulting from selective underground mining and a small processing plant, along with strong community and local/regional government support is expected to streamline the permitting process for Santa Ana.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Map Graphic Callout -->
+                <div class="advantages-map-col">
+                    <div class="map-container-box" style="flex-direction: column; position: relative; padding: 25px; background: #ffffff; border-radius: 12px; border: 1px solid var(--border-subtle); box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
+                        <div style="text-align: center; margin-bottom: 22px;">
+                            <div style="display: inline-flex; align-items: center; gap: 10px; padding: 7px 20px; background: linear-gradient(135deg, rgba(0, 223, 223, 0.1) 0%, rgba(2, 9, 20, 0.04) 100%); border: 1px solid rgba(0, 223, 223, 0.35); border-radius: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+                                <i class="fa-solid fa-location-dot" style="color: var(--brand-primary); font-size: 0.95rem;"></i>
+                                <span style="font-family: 'Figtree', sans-serif; font-weight: 800; font-size: 0.95rem; color: var(--text-primary); text-transform: uppercase; letter-spacing: 3px; line-height: 1;">COLOMBIA</span>
+                            </div>
+                        </div>
+                        <div style="position: relative; width: 100%; text-align: center;">
+                            <img src="assets/MAPA-COL-OCG-CLEAN.png?v=20261006_map3dv2" alt="Outcrop Colombia Projects Map" class="colombia-map-img" style="max-height: 540px; width: auto; max-width: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Double Split Grid Section (Bento Grid Style) -->
+    <section class="split-grid-section">
+        <div class="split-cards-grid">
+            <!-- Card 1: Silver Markets -->
+            <div class="split-card silver-markets-card" onclick="window.location.href = 'investors.html#silver-markets'" style="cursor: pointer;">
+                <div class="card-bg-img" style="background-image: url('assets/silver_markets.jpg?v=20261005_coins');"></div>
+                <div class="split-card-overlay"></div>
+                <div class="video-card-header">
+                    <h3 class="card-title-main">Silver Markets</h3>
+                    <p class="card-subtitle-sub">Scarcity & Rising Demand</p>
+                </div>
+                <button class="btn-card-action" onclick="event.stopPropagation(); window.open('https://silverinstitute.org/silver-supply-demand/', '_blank')">Dive in</button>
+            </div>
+
+            <!-- Card 2: Meet the Team -->
+            <div class="split-card team-card" onclick="window.location.href = 'corporate.html#management'" style="cursor: pointer;">
+                <div class="card-bg-img" style="background-image: url('assets/meet_the_team.jpg?v=20261005_v3');"></div>
+                <div class="split-card-overlay"></div>
+                <div class="video-card-header">
+                    <h3 class="card-title-main">Meet the Team</h3>
+                    <p class="card-subtitle-sub">STRONG MANAGEMENT TEAM & BOARD</p>
+                </div>
+                <button class="btn-card-action" onclick="event.stopPropagation(); window.location.href = 'corporate.html#management'">Dive in</button>
+            </div>
+            
+            <!-- Card 3: Core Shack (Bento Span-Full) -->
+            <div class="split-card coreshack-card span-full" onclick="window.openCoreshackCarouselModal()" style="cursor: pointer;">
+                <div class="card-bg-img" style="background-image: url('assets/coreshack_veins.jpg?v=20261005_v3');"></div>
+                <div class="split-card-overlay"></div>
+                <div class="video-card-header">
+                    <h3 class="card-title-main">The Coreshack</h3>
+                    <p class="card-subtitle-sub">SANTA ANA VEINS CAN DEMONSTRATE EXTREMELY HIGH GRADES OF SILVER AND GOLD</p>
+                </div>
+                <button class="btn-card-action" onclick="event.stopPropagation(); window.openCoreshackCarouselModal()">Dive in</button>
+            </div>
+
+            <!-- Card 4: ESG Initiatives -->
+            <div class="split-card esg-card" id="esg-section" onclick="window.location.href = 'esg.html'" style="cursor: pointer;">
+                <div class="card-bg-img" style="background-image: url('assets/esg_initiatives.jpg?v=20261005_v3');"></div>
+                <div class="split-card-overlay"></div>
+                <div class="video-card-header">
+                    <h3 class="card-title-main">ESG Initiatives</h3>
+                    <p class="card-subtitle-sub">Sustainability / Social Value / Local Strength</p>
+                </div>
+                <button class="btn-card-action" onclick="event.stopPropagation(); window.location.href = 'esg.html'">Dive in</button>
+            </div>
+
+            <!-- Card 5: Presentations & Reports -->
+            <div class="split-card downloads-card" onclick="window.open('https://outcropsilver.com/site/assets/files/6346/corporate_presentation_-_outcropsilver_-_august_2026_-_digital_new_3.pdf', '_blank')" style="cursor: pointer;">
+                <div class="card-bg-img" style="background-image: url('assets/presentations.jpg?v=20261005_v3');"></div>
+                <div class="split-card-overlay"></div>
+                <div class="video-card-header">
+                    <h3 class="card-title-main">PRESENTATION</h3>
+                    <p class="card-subtitle-sub">GET THE LATEST INFORMATION</p>
+                </div>
+                <button class="btn-card-action" onclick="event.stopPropagation(); window.open('https://outcropsilver.com/site/assets/files/6346/corporate_presentation_-_outcropsilver_-_august_2026_-_digital_new_3.pdf', '_blank')">Dive in</button>
+            </div>
+
+            <!-- Card 6: Santa Ana Project (Bento Span-Full) -->
+            <div class="split-card project-overview-card span-full" onclick="window.location.href = 'santa-ana.html'" style="cursor: pointer;">
+                <div class="card-bg-img" style="background-image: url('assets/project_overview.jpg?v=20261005_v3');"></div>
+                <div class="split-card-overlay"></div>
+                <div class="video-card-header">
+                    <h3 class="card-title-main">Santa Ana Project</h3>
+                    <p class="card-subtitle-sub">Historic High-Grade Silver District in Colombia</p>
+                </div>
+                <button class="btn-card-action" onclick="event.stopPropagation(); window.location.href = 'santa-ana.html'">Dive in</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrated Footer (Contact and newsletter sign-up directly here) -->
+    <footer class="site-footer" id="newsletter-section">
+        <div class="footer-grid">
+            <!-- Column 1: Brand & Social -->
+            <div class="footer-column brand-col">
+                <a href="index.html" class="footer-logo-link">
+                    <img src="assets/logo.svg" alt="Outcrop Silver Logo" class="footer-logo">
+                </a>
+                <p class="footer-about-text">
+                    Outcrop Silver & Gold Corp. is a Canadian exploration company advancing the Santa Ana Project, a high-grade primary silver district in Colombia's historic mining region.
+                </p>
+                <div class="footer-social-links">
+                    <a href="https://facebook.com/OutcropSilverGold" target="_blank" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/OCG_Silver" target="_blank" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://youtube.com/channel/UCaDQsP2iI7X1TsXpvv7vqNw/videos" target="_blank" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://linkedin.com/company/outcrop-silver-gold" target="_blank" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/outcropsilvergold" target="_blank" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <!-- Column 2: Quick Links -->
+            <div class="footer-column links-col">
+                <h4 class="footer-title">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="corporate.html">Corporate Overview</a></li>
+                    <li><a href="santa-ana.html">Santa Ana Project</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="investors.html">Investors</a></li>
+                    <li><a href="esg.html">ESG</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Secure Contact Info -->
+            <div class="footer-column contact-col">
+                <h4 class="footer-title">Contact</h4>
+                <ul class="footer-contact-details">
+                    <li><i class="fa-solid fa-phone"></i> +1 (604) 609-6110</li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@outcropsilver.com">info@outcropsilver.com</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i> Suite 1605 – 777 Dunsmuir St,<br>Vancouver, PO Box 10162, Canada V7Y 1E4</li>
+                </ul>
+            </div>
+            
+            <!-- Column 4: Newsletter Form -->
+            <div class="footer-column signup-col">
+                <h4 class="footer-title">Newsletter Sign-Up</h4>
+                <p class="newsletter-sub">Get direct email alerts with our latest drilling results and company updates.</p>
+                <form class="footer-signup-form" action="https://outcropgoldcorp.us20.list-manage.com/subscribe/post?u=8d2ee82d96b592c11443ded47&amp;id=ead3eb597a" method="post" target="_blank">
+                    <input type="email" name="EMAIL" placeholder="Your Email Address" required class="signup-input">
+                    <button type="submit" class="signup-btn" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Bottom copyright bar -->
+        <div class="footer-bottom-bar">
+            <div class="footer-bottom-container">
+                <div class="copyright-text">
+                    © 2026 Outcrop Silver & Gold Corporation. All Rights Reserved.
+                </div>
+                <div class="footer-legal-links">
+                    <a href="https://outcropsilver.com/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="corporate.html#disclaimer">Legal Disclaimer</a>
+                    <a href="https://www.i2services.co/" target="_blank" rel="noopener" class="powered-by-tag">Powered by: <img src="assets/i2_services_logo.png" alt="i2.Services s.a.s."></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="btn-back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- AI Chatbot Helper Trigger Button -->
+    <div class="ai-chat-trigger" onclick="alert('Chatbot interactivo: ¡Próximamente disponible!')" title="Search with AI">
+        <i class="fa-solid fa-robot"></i>
+        <span>Ask Outcrop AI</span>
+    </div>
+
+    <!-- Script connection -->
+    <script src="script.js?v=20261005_v3"></script>
+
+    
+    
+    <!-- Live Market Data Fetcher -->
+    <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        const symbols = {
+            'OCG.TO': { priceId: 'tsx-price', changeId: 'tsx-change', curr: 'C$' },
+            'OCG.V': { priceId: 'tsx-price', changeId: 'tsx-change', curr: 'C$' },
+            'OCGSF': { priceId: 'otcqx-price', changeId: 'otcqx-change', curr: '$' },
+            'MRG.F': { priceId: 'fse-price', changeId: 'fse-change', curr: '€' },
+            'SI=F': { priceId: 'silver-price', changeId: 'silver-change', curr: '$' }
+        };
+
+        const formatChange = (change) => {
+            if (change === null || change === undefined) return '';
+            const isUp = change >= 0;
+            const color = isUp ? 'var(--brand-primary)' : '#ff3b30';
+            const icon = isUp ? '<i class="fa-solid fa-caret-up"></i>' : '<i class="fa-solid fa-caret-down"></i>';
+            const sign = isUp ? '+' : '';
+            return `<span style="color: ${color};">${icon} ${sign}${change.toFixed(2)}%</span>`;
+        };
+        
+        const fallbackData = {
+            'OCG.TO': { price: 0.28, change: -3.45 },
+            'OCG.V': { price: 0.28, change: -3.45 },
+            'OCGSF': { price: 0.20, change: -0.10 },
+            'MRG.F': { price: 0.173, change: 1.29 },
+            'SI=F': { price: 61.32, change: 1.51 }
+        };
+
+        const updateDOM = (symbol, price, changePercent) => {
+            const ids = symbols[symbol];
+            if (!ids) return;
+            let formattedPrice = '';
+            if (symbol === 'SI=F') {
+                formattedPrice = price.toFixed(2) + '/Oz';
+            } else if (symbol === 'MRG.F') {
+                formattedPrice = price.toFixed(3);
+            } else {
+                formattedPrice = price.toFixed(2);
+            }
+            document.getElementById(ids.priceId).innerText = ids.curr + formattedPrice;
+            document.getElementById(ids.changeId).innerHTML = formatChange(changePercent);
+        };
+
+        try {
+            const res = await fetch('/api/market');
+            if (res.ok) {
+                const data = await res.json();
+                const fetchedSymbols = new Set(data.map(d => d.symbol));
+                
+                // Update with live data
+                data.forEach(item => {
+                    if (symbols[item.symbol]) {
+                        // If price is null/failed from API, use fallback
+                        const p = item.price !== null ? item.price : fallbackData[item.symbol].price;
+                        const c = item.change !== null ? item.change : fallbackData[item.symbol].change;
+                        updateDOM(item.symbol, p, c);
+                    }
+                });
+                
+                // If any symbols were completely missing from the API response
+                Object.keys(symbols).forEach(sym => {
+                    if (!fetchedSymbols.has(sym)) {
+                        updateDOM(sym, fallbackData[sym].price, fallbackData[sym].change);
+                    }
+                });
+            } else {
+                throw new Error("Backend not available");
+            }
+        } catch(e) {
+            console.warn("Live API fetch failed, using fallback data. Ensure server.js is running and returning /api/market", e);
+            for (const [symbol, data] of Object.entries(fallbackData)) {
+                updateDOM(symbol, data.price, data.change);
+            }
+        }
+    });
+    </script>
+</body>
+
+
+
+</html>
