@@ -1785,7 +1785,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         window.openPresentationModal = function(e) {
             if (e) e.preventDefault();
-            const pdfUrl = 'assets/corporate-presentation.pdf?v=OCT2026_WIDE_V1';
+            const pdfUrl = 'assets/corporate-presentation.pdf?v=OCT2026_WIDE_V2';
             
             // Bypass modal on mobile/tablet (iOS/Android) due to native iframe rendering issues
             if (window.innerWidth <= 820 || /iPad|iPhone|iPod|Android/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
