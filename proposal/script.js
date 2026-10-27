@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const newsGrid = document.querySelector('.news-hub-grid');
         if (!newsGrid) return;
 
-        fetch('data/news.json?v=OCKHAM_1.5')
+        fetch('data/news.json?t=' + Date.now())
             .then(res => res.json())
             .then(data => {
                 const now = new Date();
@@ -1785,7 +1785,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         window.openPresentationModal = function(e) {
             if (e) e.preventDefault();
-            const pdfUrl = 'assets/corporate-presentation.pdf?v=SEP2026_V185';
+            const pdfUrl = 'assets/corporate-presentation.pdf?v=OCT2026_WIDE_V1';
             
             // Bypass modal on mobile/tablet (iOS/Android) due to native iframe rendering issues
             if (window.innerWidth <= 820 || /iPad|iPhone|iPod|Android/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
