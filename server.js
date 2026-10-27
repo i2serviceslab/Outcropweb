@@ -3,22 +3,15 @@ const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 
+process.on('uncaughtException', (err) => {
+    console.error('CRITICAL: Uncaught Exception intercepted to prevent crash:', err);
+});
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('CRITICAL: Unhandled Rejection intercepted:', reason);
+});
+
 const PORT = process.env.PORT || 8080;
-function resolvePublicDir(req) {
-    if (process.env.SITE_FOLDER) {
-        return path.join(__dirname, process.env.SITE_FOLDER);
-    }
-    const host = ((req && req.headers && req.headers.host) || '').toLowerCase();
-    const url = (req && req.url) || '';
-    if (url.includes('site=copper')) return path.join(__dirname, 'proposal');
-    if (url.includes('site=outcrop')) return path.join(__dirname, 'outcrop');
-    if (host.includes('outcrop')) return path.join(__dirname, 'outcrop');
-    if (host.includes('copper')) return path.join(__dirname, 'proposal');
-    return path.join(__dirname, 'outcrop'); // Default to outcrop
-}
-
-const PUBLIC_DIR = path.join(__dirname, process.env.SITE_FOLDER || 'outcrop');
-
+const PUBLIC_DIR = path.join(__dirname, process.env.SITE_FOLDER || 'proposal');
 const DB_FILE = path.join(__dirname, 'data', 'analytics_db.json');
 const VISITOR_DB_FILE = path.join(__dirname, 'data', 'visitors_db.json');
 
@@ -122,40 +115,6 @@ function broadcastUpdate() {
 }
 
 const server = http.createServer((req, res) => {
-    const PUBLIC_DIR = resolvePublicDir(req);
-
-    // --- PREVENT BROWSER CACHING FOR ALL APIS ---
-    if (req.url.startsWith('/api/')) {
-        res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0');
-        res.setHeader('Pragma', 'no-cache');
-        res.setHeader('Expires', '0');
-    }
-    // --- MICROSERVICE PROXY: OUTCROP CRM (NEXT.JS) ---
-    if (req.url.startsWith('/crm') || req.url.startsWith('/_next')) {
-        const httpProxy = require('http');
-        const options = {
-            hostname: '127.0.0.1',
-            port: 3001,
-            path: req.url,
-            method: req.method,
-            headers: { ...req.headers }
-        };
-        
-        const proxyReq = httpProxy.request(options, (proxyRes) => {
-            res.writeHead(proxyRes.statusCode, proxyRes.headers);
-            proxyRes.pipe(res, { end: true });
-        });
-        
-        req.pipe(proxyReq, { end: true });
-        
-        proxyReq.on('error', (e) => {
-            console.error("CRM Proxy Error:", e.message);
-            res.writeHead(502);
-            res.end('CRM Service Unavailable');
-        });
-        return;
-    }
-
 
     // --- OMNICHANNEL ORCHESTRATION HUB ---
     
@@ -492,15 +451,11 @@ if (req.url === '/api/brevo/campaign' && req.method === 'POST') {
             fetchTicker('CGNRF'),   // OTC
             fetchTicker('29H0.F'),  // FSE
             fetchTicker('HG=F'),    // Copper Futures
-            fetchTicker('OCG.TO'),  // Outcrop TSX (Real live symbol on TSX)
+            fetchTicker('OCG.V'),   // Outcrop TSX
             fetchTicker('OCGSF'),   // Outcrop OTC
             fetchTicker('MRG.F'),   // Outcrop FSE
             fetchTicker('SI=F')     // Silver Spot
         ]).then(results => {
-            const ocg = results.find(r => r.symbol === 'OCG.TO');
-            if (ocg && ocg.price !== null) {
-                results.push({ symbol: 'OCG.V', price: ocg.price, change: ocg.change });
-            }
             global.marketCache = { data: results, timestamp: now };
             res.end(JSON.stringify(results));
         }).catch(err => {
@@ -784,16 +739,7 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
         return;
     }
 
-    if (req.url.startsWith('/api/debug')) {
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        return res.end(JSON.stringify({
-            host: req.headers.host,
-            resolvedDir: PUBLIC_DIR,
-            envSiteFolder: process.env.SITE_FOLDER || null,
-            time: new Date().toISOString()
-        }));
-    }
-    if (false && req.url === '/api/debug_old') {
+    if (req.url === '/api/debug') {
         const fs = require('fs');
         try {
             let fp = path.join(PUBLIC_DIR, 'assets/Video Web.mp4');
@@ -973,12 +919,119 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
         }
     }
 
+    
+    // --- COPPER BRAIN API --- //
+    if (req.url.startsWith('/api/brain')) {
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT');
+        res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+        if (req.method === 'OPTIONS') {
+            res.writeHead(204);
+            return res.end();
+        }
+
+        let brainDB = [];
+        try {
+            if (fs.existsSync('brain_db.json')) {
+                brainDB = JSON.parse(fs.readFileSync('brain_db.json', 'utf8'));
+            } else {
+                brainDB = { directives: [], tasks: [], state: [] };
+            }
+        } catch(e) {
+            brainDB = { directives: [], tasks: [], state: [] };
+        }
+
+        const saveBrain = () => fs.writeFileSync('brain_db.json', JSON.stringify(brainDB, null, 2));
+
+        if (req.url === '/api/brain/directives') {
+            if (req.method === 'GET') {
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                return res.end(JSON.stringify(brainDB.directives));
+            }
+            if (req.method === 'POST') {
+                let body = '';
+                req.on('data', chunk => body += chunk);
+                req.on('end', () => {
+                    const data = JSON.parse(body);
+                    data.id = Date.now();
+                    data.created_at = new Date().toISOString();
+                    data.author = data.author || 'Mio';
+                    brainDB.directives.unshift(data);
+                    saveBrain();
+                    res.writeHead(200, { 'Content-Type': 'application/json' });
+                    return res.end(JSON.stringify({ success: true, id: data.id }));
+                });
+                return;
+            }
+        }
+
+        if (req.url === '/api/brain/tasks') {
+            if (req.method === 'GET') {
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                return res.end(JSON.stringify(brainDB.tasks));
+            }
+            if (req.method === 'POST') {
+                let body = '';
+                req.on('data', chunk => body += chunk);
+                req.on('end', () => {
+                    const data = JSON.parse(body);
+                    data.id = Date.now();
+                    data.created_at = new Date().toISOString();
+                    data.status = data.status || 'pending';
+                    data.author = data.author || 'Copper Mind';
+                    brainDB.tasks.unshift(data);
+                    saveBrain();
+                    res.writeHead(200, { 'Content-Type': 'application/json' });
+                    return res.end(JSON.stringify({ success: true, id: data.id }));
+                });
+                return;
+            }
+        }
+
+        if (req.url.startsWith('/api/brain/tasks/') && req.method === 'PUT') {
+            const taskId = parseInt(req.url.split('/').pop());
+            let body = '';
+            req.on('data', chunk => body += chunk);
+            req.on('end', () => {
+                const data = JSON.parse(body);
+                const task = brainDB.tasks.find(t => t.id === taskId);
+                if (task) {
+                    task.status = data.status;
+                    saveBrain();
+                }
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                return res.end(JSON.stringify({ success: !!task }));
+            });
+            return;
+        }
+
+        if (req.url === '/api/brain/state') {
+            if (req.method === 'GET') {
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                return res.end(JSON.stringify(brainDB.state));
+            }
+            if (req.method === 'POST') {
+                let body = '';
+                req.on('data', chunk => body += chunk);
+                req.on('end', () => {
+                    const data = JSON.parse(body);
+                    data.id = Date.now();
+                    data.updated_at = new Date().toISOString();
+                    data.author = 'Antigravity';
+                    brainDB.state.unshift(data);
+                    saveBrain();
+                    res.writeHead(200, { 'Content-Type': 'application/json' });
+                    return res.end(JSON.stringify({ success: true, id: data.id }));
+                });
+                return;
+            }
+        }
+    }
+
     // Static File Server with Streams, Caching, and Compression
     let rawUrl = decodeURIComponent(req.url.split('?')[0]);
-    if (rawUrl.startsWith('/outcrop')) {
-        rawUrl = rawUrl.substring(8);
-    }
-    if (rawUrl === '' || rawUrl === '/') rawUrl = '/index.html';
+    if (rawUrl === '/') rawUrl = '/index.html';
     
     let filePath = path.join(PUBLIC_DIR, rawUrl);
     let extname = String(path.extname(filePath)).toLowerCase();
@@ -993,8 +1046,14 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
         if (err || !stats.isFile()) {
             if (!extname || extname === '.html') {
                 // Fallback to index.html for 404s on routes
-                res.writeHead(404, { 'Content-Type': 'text/html', 'Cache-Control': 'no-store' });
-                res.end('<h1>404 Not Found</h1><p>The page you are looking for does not exist.</p>');
+                fs.stat(path.join(PUBLIC_DIR, 'index.html'), (err404, fallbackStats) => {
+                    if (err404) {
+                        res.writeHead(404);
+                        return res.end('Not Found');
+                    }
+                    res.writeHead(404, { 'Content-Type': 'text/plain' });
+                    res.end('404 Not Found');
+                });
             } else {
                 res.writeHead(404);
                 res.end('Not Found');
@@ -1008,40 +1067,49 @@ NO incluyas marcas de markdown. Solo el array JSON puro.`;
             'Accept-Ranges': 'bytes' // Crucial for large PDFs and Videos
         };
 
-        // High-Performance Caching Strategy
-        const isStaticAsset = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.woff2', '.woff', '.ttf', '.pdf', '.css', '.js', '.mp4', '.json', '.webp', '.webm'].includes(extname);
-        if (isStaticAsset) {
-            headers['Cache-Control'] = 'public, max-age=31536000, immutable'; // 1 Year Cache for Static Assets
-        } else if (extname === '.html') {
-            // HTML pages revalidate with ETag to ensure fresh updates without purging browser asset cache
-            headers['Cache-Control'] = 'no-cache, must-revalidate';
+        // Aggressive Caching for Assets (Images, Fonts, JS, CSS, PDFs)
+        if (['.png', '.jpg', '.jpeg', '.gif', '.svg', '.woff2', '.woff', '.ttf', '.pdf', '.css', '.js', '.mp4', '.json', '.webp', '.webm'].includes(extname)) {
+            headers['Cache-Control'] = 'public, max-age=31536000, immutable'; // 1 Year Cache
         } else {
-            headers['Cache-Control'] = 'no-cache';
-        }
-
-        // Universal ETag & 304 Not Modified Support
-        headers['ETag'] = `"${stats.size.toString(16)}-${stats.mtime.getTime().toString(16)}"`;
-        if (req.headers['if-none-match'] === headers['ETag']) {
-            res.writeHead(304, headers);
-            return res.end();
+            headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0';
+            headers['Pragma'] = 'no-cache';
+            headers['Clear-Site-Data'] = '\"cache\"';
         }
 
         // Handle Range Requests for large PDFs and Videos
         const range = req.headers.range;
-        if (range) {
+        if (range && stats.size > 0) {
             const parts = range.replace(/bytes=/, "").split("-");
-            const partialstart = parts[0];
-            const partialend = parts[1];
-            
-            const start = parseInt(partialstart, 10);
-            const end = partialend ? parseInt(partialend, 10) : stats.size - 1;
+            let start = parseInt(parts[0], 10);
+            let end = parts[1] ? parseInt(parts[1], 10) : stats.size - 1;
+
+            if (isNaN(start)) {
+                start = stats.size - (parseInt(parts[1], 10) || 0);
+            }
+            if (isNaN(end) || end >= stats.size) {
+                end = stats.size - 1;
+            }
+            if (isNaN(start) || start < 0) {
+                start = 0;
+            }
+
+            if (start > end || start >= stats.size) {
+                res.writeHead(416, { 'Content-Range': `bytes */${stats.size}` });
+                return res.end();
+            }
+
             const chunksize = (end - start) + 1;
-            
             headers['Content-Range'] = `bytes ${start}-${end}/${stats.size}`;
             headers['Content-Length'] = chunksize;
-            
+
             res.writeHead(206, headers);
-            fs.createReadStream(filePath, { start, end }).pipe(res);
+            const stream = fs.createReadStream(filePath, { start, end });
+            stream.on('error', (streamErr) => {
+                console.error("Stream range error:", streamErr);
+                if (!res.headersSent) res.writeHead(500);
+                res.end();
+            });
+            stream.pipe(res);
             return;
         }
 
