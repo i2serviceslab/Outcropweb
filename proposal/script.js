@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const newsGrid = document.querySelector('.news-hub-grid');
         if (!newsGrid) return;
 
-        fetch('data/news.json?v=OCKHAM_1.4')
+        fetch('data/news.json?v=OCKHAM_1.5')
             .then(res => res.json())
             .then(data => {
                 const now = new Date();
